@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="E家洁BOSS" verbose="1">
+
+	<!-- 测试数据存放地址 -->
+	<parameter name="mysql_url" value="jdbc:mysql://182.92.65.25:3306/testdata?characterEncoding=UTF-8" />
+	<parameter name="mysql_user" value="root" />
+	<parameter name="mysql_pwd" value="nRGSGqK5Ccn3GSTw" />
+
+	<test name="Test for this frame -- chrome">
+		<parameter name="DriverName" value="chrome" />
+		<parameter name="ChromeDriverPath"
+				   value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />
+		<classes>
+			<class name="cases.DemoTest"></class>
+		</classes>
+	</test>
+
+	<test name="Test for this frame -- ie">
+		<parameter name="DriverName" value="ie" />
+		<classes>
+			<class name="cases.DemoTest"></class>
+		</classes>
+	</test>
+
+	<!--
+	<test name="testfront  Chrome测试谷歌浏览器">
+		<parameter name="DriverName" value="chrome" />
+		<classes>
+			<class name="cases.admin.AdminLoginTest"></class>
+			<class name="cases.front.RegisterTest"></class>
+			<class name="cases.front.AuthenticationTest"></class>
+			<class name="cases.front.LoginTest"></class>
+			<class name="cases.front.SignOutTest"></class>
+			<class name="cases.front.ModifyPwd"></class>
+			<class name="cases.front.RechargeTest"></class>
+		</classes>
+	</test>
+	-->
+
+</suite>

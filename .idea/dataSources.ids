@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - ejj_test@182.92.65.25" uuid="3418cb29-5ee5-4090-8dd3-c5b1edd0633e">
+    <database-info product="MySQL" version="5.1.73" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="ejj_test"/>
+      <table id="2" parent="1" name="cases"/>
+      <table id="3" parent="1" name="datas"/>
+      <table id="4" parent="1" name="groups"/>
+      <column id="5" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="6" parent="2" name="name">
+        <comment>用例名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(255)</data-type>
+      </column>
+      <column id="7" parent="2" name="function">
+        <comment>用例目的</comment>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="8" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="9" parent="3" name="id">
+        <comment>输入数据的id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="10" parent="3" name="group_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="11" parent="3" name="step">
+        <comment>第几步要用</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="12" parent="3" name="data">
+        <comment>数据</comment>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <index id="13" parent="3" name="group_id">
+        <columns>group_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="14" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="15" parent="3" name="group_id">
+        <columns>group_id</columns>
+        <ref-key>~.groups.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="16" parent="4" name="id">
+        <comment>组的id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="17" parent="4" name="case_id">
+        <comment>所属用例</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="18" parent="4" name="result_correct">
+        <comment>预期测试结果</comment>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="19" parent="4" name="result_actual">
+        <comment>实际测试结果</comment>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <index id="20" parent="4" name="case_id">
+        <columns>case_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="21" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="22" parent="4" name="case_id">
+        <columns>case_id</columns>
+        <ref-key>~.cases.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+    </database-model>
+  </data-source>
+</component>

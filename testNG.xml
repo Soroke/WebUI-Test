@@ -16,14 +16,14 @@
 			<class name="cases.DemoTest"></class>
 		</classes>
 	</test>
-
+	<!--
 	<test name="Test for this frame -- ie">
 		<parameter name="DriverName" value="ie" />
 		<classes>
 			<class name="cases.DemoTest"></class>
 		</classes>
 	</test>
-	
+	-->
 	<test name="Test for this frame -- firefox">
 		<parameter name="DriverName" value="firefox" />
 		<classes>

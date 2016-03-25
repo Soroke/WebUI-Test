@@ -23,6 +23,13 @@
 			<class name="cases.DemoTest"></class>
 		</classes>
 	</test>
+	
+	<test name="Test for this frame -- firefox">
+		<parameter name="DriverName" value="firefox" />
+		<classes>
+			<class name="cases.DemoTest"></class>
+		</classes>
+	</test>
 
 	<!--
 	<test name="testfront  Chrome测试谷歌浏览器">

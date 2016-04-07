@@ -1,0 +1,169 @@
+[INFO][2016-04-06 11:40:44]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 11:40:44]#####################################################
+[INFO][2016-04-06 11:48:09]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 11:48:09]#####################################################
+[INFO][2016-04-06 11:48:47]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 11:48:47]#####################################################
+[INFO][2016-04-06 11:50:38]#####################################################
+[INFO][2016-04-06 11:50:38]\/\/\/\/\/\/---TestCase = LoginTest---\/\/\/\/\/\/
+[INFO][2016-04-06 11:50:39]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 11:50:39]#####################################################
+[INFO][2016-04-06 11:50:39]#####################################################
+[INFO][2016-04-06 11:50:39]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 11:50:49]WebDriver navigating to:'https://www.baidu.com/'
+[INFO][2016-04-06 11:50:53]WebDriver changing value in element found By.id: kw from '' to '百度一下你就知道'
+[INFO][2016-04-06 11:50:53]WebDriver clicking on:'id: su'
+[INFO][2016-04-06 11:50:53]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 11:50:53]#####################################################
+[INFO][2016-04-06 11:50:53]#####################################################
+[INFO][2016-04-06 11:50:53]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 11:50:53]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 11:50:53]#####################################################
+[INFO][2016-04-06 11:53:16]#####################################################
+[INFO][2016-04-06 11:53:16]\/\/\/\/\/\/---TestCase = LoginTest---\/\/\/\/\/\/
+[ERROR][2016-04-06 11:53:21]WebDriver error: Element not found By.id: loginform-username
+[ERROR][2016-04-06 11:53:27]WebDriver error: Element not found By.id: loginform-username
+[INFO][2016-04-06 11:53:28]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 11:53:28]#####################################################
+[INFO][2016-04-06 11:53:28]#####################################################
+[INFO][2016-04-06 11:53:28]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 11:53:38]WebDriver navigating to:'https://www.baidu.com/'
+[INFO][2016-04-06 11:53:42]WebDriver changing value in element found By.id: kw from '' to '百度一下你就知道'
+[INFO][2016-04-06 11:53:42]WebDriver clicking on:'id: su'
+[INFO][2016-04-06 11:53:42]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 11:53:42]#####################################################
+[INFO][2016-04-06 11:53:42]#####################################################
+[INFO][2016-04-06 11:53:42]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 11:53:42]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 11:53:42]#####################################################
+[INFO][2016-04-06 15:50:42]#####################################################
+[INFO][2016-04-06 15:50:42]\/\/\/\/\/\/---TestCase = LoginTest---\/\/\/\/\/\/
+[INFO][2016-04-06 15:50:43]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 15:50:43]#####################################################
+[INFO][2016-04-06 15:50:43]#####################################################
+[INFO][2016-04-06 15:50:43]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 15:50:57]WebDriver navigating to:'https://www.baidu.com/'
+[INFO][2016-04-06 15:51:00]WebDriver changing value in element found By.id: kw from '' to '百度一下你就知道'
+[INFO][2016-04-06 15:51:01]WebDriver clicking on:'id: su'
+[INFO][2016-04-06 15:51:02]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 15:51:02]#####################################################
+[INFO][2016-04-06 15:51:02]#####################################################
+[INFO][2016-04-06 15:51:02]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 15:51:02]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 15:51:02]#####################################################
+[INFO][2016-04-06 15:51:10]#####################################################
+[INFO][2016-04-06 15:51:10]\/\/\/\/\/\/---TestCase = LoginTest---\/\/\/\/\/\/
+[INFO][2016-04-06 15:51:13]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 15:51:26]WebDriver changing value in element found By.id: loginform-username from '' to ''
+[INFO][2016-04-06 15:51:26]WebDriver changing value in element found By.id: loginform-username from '' to 'admin'
+[INFO][2016-04-06 15:51:26]WebDriver changing value in element found By.id: loginform-password from '' to ''
+[INFO][2016-04-06 15:51:26]WebDriver changing value in element found By.id: loginform-password from '' to 'Test2016QA'
+[INFO][2016-04-06 15:51:34]WebDriver clicking on:'xpath: //*[@id='list']/li[5]/button'
+[INFO][2016-04-06 15:51:37]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 15:51:46]WebDriver changing value in element found By.id: loginform-username from '' to ''
+[INFO][2016-04-06 15:51:46]WebDriver changing value in element found By.id: loginform-username from '' to 'admin'
+[INFO][2016-04-06 15:51:46]WebDriver changing value in element found By.id: loginform-password from '' to ''
+[INFO][2016-04-06 15:51:46]WebDriver changing value in element found By.id: loginform-password from '' to 'cuowumima'
+[INFO][2016-04-06 15:51:54]WebDriver clicking on:'xpath: //*[@id='list']/li[5]/button'
+[INFO][2016-04-06 15:51:55]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 15:51:55]#####################################################
+[INFO][2016-04-06 15:51:55]#####################################################
+[INFO][2016-04-06 15:51:55]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 15:52:06]WebDriver navigating to:'https://www.baidu.com/'
+[INFO][2016-04-06 15:52:11]WebDriver changing value in element found By.id: kw from '' to '百度一下你就知道'
+[INFO][2016-04-06 15:52:12]WebDriver clicking on:'id: su'
+[INFO][2016-04-06 15:52:14]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 15:52:14]#####################################################
+[INFO][2016-04-06 15:52:14]#####################################################
+[INFO][2016-04-06 15:52:14]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 15:52:14]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 15:52:14]#####################################################
+[INFO][2016-04-06 16:22:41]#####################################################
+[INFO][2016-04-06 16:22:41]\/\/\/\/\/\/---TestCase = LoginTest---\/\/\/\/\/\/
+[INFO][2016-04-06 16:22:43]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 16:22:53]WebDriver changing value in element found By.id: loginform-username from '' to ''
+[INFO][2016-04-06 16:22:53]WebDriver changing value in element found By.id: loginform-username from '' to 'admin'
+[INFO][2016-04-06 16:22:53]WebDriver changing value in element found By.id: loginform-password from '' to ''
+[INFO][2016-04-06 16:22:53]WebDriver changing value in element found By.id: loginform-password from '' to 'Test2016QA'
+[ERROR][2016-04-06 16:23:05]WebDriver error: Element not found By.xpath: //*[@id='list']/li[5]/button
+[INFO][2016-04-06 16:23:07]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 16:23:15]WebDriver changing value in element found By.id: loginform-username from '' to ''
+[INFO][2016-04-06 16:23:15]WebDriver changing value in element found By.id: loginform-username from '' to 'admin'
+[INFO][2016-04-06 16:23:15]WebDriver changing value in element found By.id: loginform-password from '' to ''
+[INFO][2016-04-06 16:23:15]WebDriver changing value in element found By.id: loginform-password from '' to 'cuowumima'
+[INFO][2016-04-06 16:23:23]WebDriver clicking on:'xpath: //*[@id='list']/li[5]/button'
+[INFO][2016-04-06 16:23:24]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 16:23:24]#####################################################
+[INFO][2016-04-06 16:23:24]#####################################################
+[INFO][2016-04-06 16:23:24]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 16:23:34]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 16:23:38]WebDriver navigating to:'https://www.baidu.com/'
+[INFO][2016-04-06 16:23:41]WebDriver changing value in element found By.id: kw from '' to '百度一下你就知道'
+[INFO][2016-04-06 16:23:41]WebDriver clicking on:'id: su'
+[INFO][2016-04-06 16:23:41]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 16:23:41]#####################################################
+[INFO][2016-04-06 16:29:29]#####################################################
+[INFO][2016-04-06 16:29:29]\/\/\/\/\/\/---TestCase = LoginTest---\/\/\/\/\/\/
+[INFO][2016-04-06 16:29:35]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 16:30:35]WebDriver changing value in element found By.id: loginform-username from '' to ''
+[INFO][2016-04-06 16:30:35]WebDriver changing value in element found By.id: loginform-username from '' to 'admin'
+[INFO][2016-04-06 16:30:35]WebDriver changing value in element found By.id: loginform-password from '' to ''
+[INFO][2016-04-06 16:30:35]WebDriver changing value in element found By.id: loginform-password from '' to 'Test2016QA'
+[INFO][2016-04-06 16:30:43]WebDriver clicking on:'xpath: //*[@id='list']/li[5]/button'
+[ERROR][2016-04-06 16:30:53]WebDriver error: Element not found By.xpath: /html/body/div[2]/aside[1]/div/section/div[1]/div[2]/p[1]
+[INFO][2016-04-06 16:31:00]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 16:31:52]WebDriver changing value in element found By.id: loginform-username from '' to ''
+[INFO][2016-04-06 16:31:53]WebDriver changing value in element found By.id: loginform-username from '' to 'admin'
+[INFO][2016-04-06 16:31:53]WebDriver changing value in element found By.id: loginform-password from '' to ''
+[INFO][2016-04-06 16:31:53]WebDriver changing value in element found By.id: loginform-password from '' to 'cuowumima'
+[INFO][2016-04-06 16:32:01]WebDriver clicking on:'xpath: //*[@id='list']/li[5]/button'
+[INFO][2016-04-06 16:32:05]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 16:32:05]#####################################################
+[INFO][2016-04-06 16:32:05]#####################################################
+[INFO][2016-04-06 16:32:05]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 16:34:00]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 16:34:00]#####################################################
+[INFO][2016-04-06 17:49:48]#####################################################
+[INFO][2016-04-06 17:49:48]\/\/\/\/\/\/---TestCase = LoginTest---\/\/\/\/\/\/
+[INFO][2016-04-06 17:49:50]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 17:50:08]WebDriver changing value in element found By.id: loginform-username from '' to ''
+[INFO][2016-04-06 17:50:08]WebDriver changing value in element found By.id: loginform-username from '' to 'admin'
+[INFO][2016-04-06 17:50:08]WebDriver changing value in element found By.id: loginform-password from '' to ''
+[INFO][2016-04-06 17:50:08]WebDriver changing value in element found By.id: loginform-password from '' to 'Test2016QA'
+[INFO][2016-04-06 17:50:17]WebDriver clicking on:'xpath: //*[@id='list']/li[5]/button'
+[ERROR][2016-04-06 17:50:20]WebDriver error: Element not found By.xpath: /html/body/div[2]/aside[1]/div/section/div[1]/div[2]/p[1]
+[INFO][2016-04-06 17:50:24]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 17:50:29]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 17:50:29]#####################################################
+[INFO][2016-04-06 17:50:29]#####################################################
+[INFO][2016-04-06 17:50:29]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 17:50:39]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 17:50:45]WebDriver navigating to:'https://www.baidu.com/'
+[INFO][2016-04-06 17:50:47]WebDriver changing value in element found By.id: kw from '' to '百度一下你就知道'
+[INFO][2016-04-06 17:50:47]WebDriver clicking on:'id: su'
+[INFO][2016-04-06 17:50:48]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 17:50:48]#####################################################
+[INFO][2016-04-06 17:52:20]#####################################################
+[INFO][2016-04-06 17:52:20]\/\/\/\/\/\/---TestCase = LoginTest---\/\/\/\/\/\/
+[INFO][2016-04-06 17:52:22]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 17:52:30]WebDriver changing value in element found By.id: loginform-username from '' to ''
+[INFO][2016-04-06 17:52:30]WebDriver changing value in element found By.id: loginform-username from '' to 'admin'
+[INFO][2016-04-06 17:52:30]WebDriver changing value in element found By.id: loginform-password from '' to ''
+[INFO][2016-04-06 17:52:31]WebDriver changing value in element found By.id: loginform-password from '' to 'Test2016QA'
+[INFO][2016-04-06 17:52:39]WebDriver clicking on:'xpath: //*[@id='list']/li[5]/button'
+[INFO][2016-04-06 17:52:45]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 17:52:52]WebDriver changing value in element found By.id: loginform-username from '' to ''
+[INFO][2016-04-06 17:52:52]WebDriver changing value in element found By.id: loginform-username from '' to 'admin'
+[INFO][2016-04-06 17:52:52]WebDriver changing value in element found By.id: loginform-password from '' to ''
+[INFO][2016-04-06 17:52:52]WebDriver changing value in element found By.id: loginform-password from '' to 'cuowumima'
+[INFO][2016-04-06 17:53:00]WebDriver clicking on:'xpath: //*[@id='list']/li[5]/button'
+[INFO][2016-04-06 17:53:01]/\/\/\/\/\/\---TestCase = LoginTest---/\/\/\/\/\/\
+[INFO][2016-04-06 17:53:01]#####################################################
+[INFO][2016-04-06 17:53:01]#####################################################
+[INFO][2016-04-06 17:53:01]\/\/\/\/\/\/---TestCase = DemoTest---\/\/\/\/\/\/
+[INFO][2016-04-06 17:53:10]WebDriver navigating to:'http://test.boss.1jiajie.com/'
+[INFO][2016-04-06 17:53:16]WebDriver navigating to:'https://www.baidu.com/'
+[INFO][2016-04-06 17:53:17]WebDriver changing value in element found By.id: kw from '' to '百度一下你就知道'
+[INFO][2016-04-06 17:53:17]WebDriver clicking on:'id: su'
+[INFO][2016-04-06 17:53:18]/\/\/\/\/\/\---TestCase = DemoTest---/\/\/\/\/\/\
+[INFO][2016-04-06 17:53:18]#####################################################

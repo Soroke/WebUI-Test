@@ -26,6 +26,6 @@ public class HomePage extends Page{
     public WebElement addNew_jiazheng;
 
     //人工下单
-    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[5]/ul/li[2]/a")
+    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[6]/ul/li[4]/a")
     public WebElement humenMakeOrder;
 }

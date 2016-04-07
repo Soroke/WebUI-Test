@@ -4,7 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -109,7 +111,17 @@ public class TestCase {
 		return sql.getJDBCData(this.getClass().getName());
 	}
 
-	
+	/**
+	 * 点击隐藏链接
+	 * 通过JS解决隐藏链接无法点击的问题
+	 * element 要点击链接的WebElement对象
+	 */
+	public void underElementClick(WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+		js.executeScript("arguments[0].click();",element);
+	}
+
+
 	/**
 	 * 静态内部类。因为如果把这些driver相关的东西直接放在TestCase类里，从逻辑上说不通。引入一个静态内部类来解决。
 	 */

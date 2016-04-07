@@ -44,13 +44,14 @@ public class TestCase {
 	 * @param firefoxPath	firefox.exe目录	默认启动默认安装路径的浏览器
 	 */
 	@BeforeMethod(alwaysRun = true)
-	@Parameters({"DriverName", "ChromeDriverPath", "IeDriverPath", "FirefoxDriverPath"})
+	@Parameters({"DriverName", "ChromeDriverPath", "IeDriverPath", "FirefoxDriverPath","index"})
 	protected void testMethodStart(@Optional("firefox") String driverName, 
 			@Optional("classes/chromedriver.exe") String chromrPath,
 			@Optional("classes/IEDriverServer.exe") String iePath,
-			@Optional("moren") String firefoxPath) {
+			@Optional("moren") String firefoxPath,String url) {
 		DriverManager.setupDriver(driverName, chromrPath, iePath, firefoxPath);
-		
+		DriverManager.getDriver().manage().window().maximize();
+		DriverManager.getDriver().get(url);
 	}
 
 	/**

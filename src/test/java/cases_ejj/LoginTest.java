@@ -1,0 +1,36 @@
+package cases_ejj;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import webtest.core.TestCase;
+import webtest.core.page_ejj.HomePage;
+import webtest.core.page_ejj.LoginPage;
+import webtest.core.util.Wait;
+
+/**
+ * Created by Administrator on 2016-04-06.
+ */
+public class LoginTest extends TestCase {
+    Wait w = new Wait();
+
+    @Test(dataProvider = "getData")
+    public void login(String jg,String user,String passwd) {
+        LoginPage lp = new LoginPage();
+        lp.login(user,passwd);
+
+        if(jg.equals(1) || jg.equals("登录成功")){
+            jg = "登录成功";
+            HomePage hp = new HomePage();
+            w.reFresh(1, hp.userName);
+            String[] s = hp.userName.getText().split(",");
+            Assert.assertEquals(user, s[1]);
+        }else
+        if(jg.equals(0) || jg.equals("登录失败")){
+            Assert.assertEquals("登录", lp.loginText.getText());
+        }else {
+            log.error("预期结果无法识别---" + jg);
+            Assert.assertEquals("1", "0");
+        }
+
+    }
+}

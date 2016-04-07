@@ -1,8 +1,9 @@
 package webtest.core;
 
-import java.util.Set;
+import java.util.List;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import webtest.core.TestCase.DriverManager;
@@ -23,5 +24,35 @@ public class Page {
 	protected void init(){
 		DriverManager.getDriver().switchTo().defaultContent();
 	}
-	
+
+	/**
+	 * id：标签的id
+	 * yuansu:元素明
+	 * className：class的名字
+	 * 获取页面 某个标签（标签ID）下名字等于yuansu并且class名字等于className的所有元素
+	 */
+	public List<WebElement> getAllElement_ClassName(String id, String yuansu, String className) {
+
+		@SuppressWarnings("unchecked")
+		List<WebElement> inputs = (List<WebElement>) ((JavascriptExecutor)TestCase.DriverManager.getDriver()).executeScript(
+				"var labels = document.getElementById('"+ id +"').getElementsByTagName('"+ yuansu +"');"+
+						"var inputs = []; for (var i=0; i < labels.length; i++){" +
+						"var radio = labels[i].getAttribute('class');"+
+						"if(radio=='"+ className +"'){ inputs.push(labels[i]); }} return inputs;");
+		return inputs;
+	}
+
+	/**
+	 * id：标签的id
+	 * yuansu:元素明
+	 * 获取页面 某个标签（标签ID）下名字等于yuansu的所有元素
+	 */
+	public List<WebElement> getAllElement(String id,String yuansu) {
+
+		@SuppressWarnings("unchecked")
+		List<WebElement> inputs = (List<WebElement>) ((JavascriptExecutor)TestCase.DriverManager.getDriver()).executeScript(
+				"var labels = document.getElementById('"+ id +"').getElementsByTagName('"+ yuansu +"'); return labels;");
+		return inputs;
+	}
+
 }

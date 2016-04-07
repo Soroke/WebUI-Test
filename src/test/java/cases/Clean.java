@@ -21,7 +21,7 @@ public class Clean extends TestCase{
     //重写方法-启动测试时不打开浏览器
     @Override
     protected void testMethodEnd() {}
-    @Override
+
     protected void testMethodStart(String driverName, String chromrPath, String iePath, String firefoxPath) {}
 
     @Test(dataProvider = "getData")

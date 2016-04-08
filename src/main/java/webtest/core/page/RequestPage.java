@@ -32,6 +32,5 @@ public class RequestPage extends Page {
 	//搜索输入框
 	@FindBy(id = "kw")
 	public WebElement input;
-	
-	
+
 }

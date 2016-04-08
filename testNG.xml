@@ -25,17 +25,17 @@
                 <class name="cases_ejj.HomeLinkTest"/>
             </classes>
         </test>
+	<!--
+            <test name="登录测试 - 浏览器ie">
+                <parameter name="DriverName" value="ie"/>
+                <classes>
+                    <class name="cases_ejj.LoginTest"/>
+                    <class name="cases_ejj.HomeLinkTest"/>
+                </classes>
+            </test>
+    -->
 
-        <test name="登录测试 - 浏览器ie">
-            <parameter name="DriverName" value="ie"/>
-            <classes>
-                <class name="cases_ejj.LoginTest"/>
-                <class name="cases_ejj.HomeLinkTest"/>
-            </classes>
-        </test>
-
-
-        <!-- 测试目标配置 -->
+            <!-- 测试目标配置 -->
 	<parameter name="index" value="http://test.boss.1jiajie.com/" />
 	<parameter name="admin_user" value="admin"/>
 	<parameter name="admin_pass" value="Test2016QA"/>

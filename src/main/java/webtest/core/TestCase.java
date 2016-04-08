@@ -112,8 +112,8 @@ public class TestCase {
 	}
 
 	/**
-	 * 点击隐藏链接
-	 * 通过JS解决隐藏链接无法点击的问题
+	 * 点击隐藏元素
+	 * 通过JS解决隐藏元素无法点击的问题
 	 * element 要点击链接的WebElement对象
 	 */
 	public void underElementClick(WebElement element) {

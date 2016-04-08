@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a6d3b0-fa84-4d0e-8b75-e66fe9c687bc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/RequestPage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page/RequestPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testNG.xml" afterPath="$PROJECT_DIR$/testNG.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrder.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/MakeOrder_Test.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/MakeOrder_Test.java" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,8 +121,8 @@
       <file leaf-file-name="MakeOrder_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/MakeOrder_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="574">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1080,7 +1075,7 @@
       <workItem from="1459912394209" duration="11733000" />
       <workItem from="1459996255940" duration="4490000" />
       <workItem from="1460016016996" duration="4636000" />
-      <workItem from="1460082534561" duration="9033000" />
+      <workItem from="1460082534561" duration="9042000" />
     </task>
     <servers />
   </component>
@@ -1117,7 +1112,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39594000" />
+    <option name="totallyTimeSpent" value="39603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1129,7 +1124,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1562,8 +1557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/MakeOrder_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="574">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

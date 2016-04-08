@@ -29,7 +29,7 @@ public class MakeOrder_Test extends TestCase{
     public void makeOrder(String phoneNumber) {
         CreateOrderPage co = new CreateOrderPage();
         co.phoneNumber.sendKeys(phoneNumber);
-        co.count_address()
+        co.count_address();
     }
 
 }

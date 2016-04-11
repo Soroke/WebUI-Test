@@ -1,39 +1,71 @@
 package webtest.core.page_ejj.dingdanguanli;
-
-import java.util.List;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import webtest.core.Page;
-import webtest.core.TestCase;
 
 public class CreateOrderPage extends Page{
-    //页面标题
+    /**
+     * pageText :当前页面的标题
+     */
     @FindBy(xpath = "/html/body/div[2]/aside[2]/section[1]/h1")
     public WebElement pageText;
 
-    //手机号输入框
+    /**
+     * phoneNumber:手机号输入框ID
+     */
     @FindBy(id = "order-order_customer_phone")
     public WebElement phoneNumber;
 
-    //用户的第一个地址
+    /**
+     * 用户的第一个地址
+     * addressOne:第一个地址
+     * addressOneButton：第一个地址的编辑按钮
+     * addressOneInput:第一个地址的input单选框
+     */
+
     @FindBy(xpath="//*[@id='order-address_id']/div[1]")
     public WebElement addressOne;
+    public String addressOne_xpath = "//*[@id='order-address_id']/div[1]";
 
-    //新增地址按钮
-    @FindBy(id="add_address_btn")
-    public WebElement addAddress_button_id;
+    @FindBy(xpath = "//*[@id='order-address_id']/div[1]/button")
+    public WebElement addressOneButton;
+
+    @FindBy(xpath = "//*[@id='order-address_id']/div[1]/label[1]")
+    public WebElement addressOneInput;
+    public String addressOneInput_xpath = "//*[@id='order-address_id']/div[1]/label[1]";
+
+    /**
+     * 用户下单地址添加
+     *  sheng:选择省份select
+     *  shi：选择城市select
+     *  xian:选择县区select
+     *  xiangxi:详细信息输入框
+     *  baocun:报错按钮
+     */
+    @FindBy(xpath = "//*[@id=\"order-address_id\"]/div[1]/div[1]/select")
+    public WebElement sheng;
+
+    @FindBy(xpath = "//*[@id=\"order-address_id\"]/div[1]/div[2]/select")
+    public WebElement shi;
+
+    @FindBy(xpath = "//*[@id=\"order-address_id\"]/div[1]/div[3]/select")
+    public WebElement xian;
+
+    @FindBy(xpath = "//*[@id=\"order-address_id\"]/div[1]/div[4]/input")
+    public WebElement xiangxi;
+
+    @FindBy(xpath = "//*[@id=\"order-address_id\"]/div[1]/div[7]/button[1]")
+    public  WebElement baocun;
 
 
     //家庭保洁选择
-    @FindBy(xpath="//*[@id='order-order_service_item_id']/label[1]")
-    WebElement bjrw_click_xpath;
+    @FindBy(xpath="//*[@id='order-order_service_item_id']/label[1]/input")
+    public WebElement bjrw_click_xpath;
 
     //要指定阿姨姓名、手机号搜索
     @FindBy(id="worker_name_search")
-    WebElement ayiname_text_id;
+    public WebElement ayiname_text_id;
 
     //服务信息DIV
     @FindBy(xpath="//*[@id='order_create_form']/div/div[4]")
@@ -43,23 +75,34 @@ public class CreateOrderPage extends Page{
     @FindBy(id="order-order_booked_worker_id")
     WebElement zhidingayi_div_id;
 
-    //所有ClassName="radio-inline"的元素
-    @FindBy(className="radio-inline")
-    List<WebElement> inline_All;
-
-    //日期
+    /**
+     *  rili_input_id:日历控件
+     *  serviceTimeOne：服务时长第一个
+     *  serviceTimeTwo：服务时长第二个
+     *  fuwushijianduan：服务时间段第一个
+     */
     @FindBy(id="order-orderbookeddate")
-    WebElement rili_input_id;
+    public WebElement rili_input_id;
 
-    //服务时长ID
-    @FindBy(id = "order-order_booked_count")
-    private WebElement serviceTime_div_ID;
+    @FindBy(xpath = "//*[@id=\"order-order_booked_count\"]/label[1]/input")
+    public WebElement serviceTimeOne;
 
-    //服务时间段ID
-    String fwsj_div_id = "order-orderbookedtimerange";
+    @FindBy(xpath = "//*[@id=\"order-order_booked_count\"]/label[2]")
+    public WebElement serviceTimeTwo;
 
-    //第一个时间段
-    String fristTime_xpath = "//*[@id='order-orderbookedtimerange']/label[1]/input";
+    @FindBy(xpath = "//*[@id=\"order-orderbookedtimerange\"]/label[1]/input")
+    public WebElement fuwushijianduan;
+    public String fuwushijianduanFrist = "//*[@id=\"order-orderbookedtimerange\"]/label[3]/input";
+
+    /**
+     * 支付方式
+     * xianjinzhifu:现金支付
+     * yuezhifu：余额支付
+     */
+    @FindBy(xpath = "//*[@id='order-pay_channel_id']/label[1]/input")
+    public WebElement xianjinzhifu;
+    @FindBy(xpath = "//*[@id='order-pay_channel_id']/label[2]/input")
+    public WebElement yuezhifu;
 
     //客户备注
     @FindBy(id="order-order_customer_memo")
@@ -69,33 +112,5 @@ public class CreateOrderPage extends Page{
     @FindBy(id="order-order_cs_memo")
     private WebElement kfbz;
 
-    /**
-     * 获取用户的下单地址集合
-     * 返回数据为下单地址WebElement集合
-     */
-    public List<WebElement> getOrderAddress() {
-        return this.getAllElement_ClassName("order-address_id", "div","radio");
-    }
-
-    /**
-     * 查看当前手机号下有多少个下单地址
-     */
-    public int count_address() {
-        int i = this.getOrderAddress().size();
-        if(i==1) {
-            try{
-                TestCase.DriverManager.getDriver().findElement(By.xpath("//*[@id='order-address_id']/div[" + i + "]/div[1]/select"));
-                return 0;
-            }catch(Exception e) {
-                return 1;
-            }
-
-        }
-        return i;
-    }
-
-    /**
-     *
-     */
 
 }

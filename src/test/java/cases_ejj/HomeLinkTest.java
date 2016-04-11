@@ -2,13 +2,13 @@ package cases_ejj;
 
 import junit.framework.Assert;
 
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import webtest.core.TestCase;
 import webtest.core.page_ejj.HomePage;
-import webtest.core.page_ejj.dingdanguanli.CreateOrder;
+import webtest.core.page_ejj.dingdanguanli.CreateOrderPage;
 import webtest.core.page_ejj.jiazhenggongshiguanli.AddNewHomemaking;
 import webtest.core.page_ejj.jiazhenggongshiguanli.LookAllHomemaking;
 import webtest.core.util.Wait;
@@ -18,8 +18,8 @@ import webtest.core.util.Wait;
  * @author Administrator
  * 封装成一个一个 的方法以供复用
  */
-public class HomeLinkTest extends TestCase{
-    //重写父类afterMethod方法，完成一个测试方法不关闭浏览器
+public class HomeLinkTest extends WebTest{
+    //重写父类afterMethod方法，完成一个测试方法不关闭浏览器,当所有test都完成后再关闭浏览器
     @Override
     protected void testMethodEnd() {}
 
@@ -49,6 +49,7 @@ public class HomeLinkTest extends TestCase{
         LookAllHomemaking ahp = new LookAllHomemaking();
         w.reFresh(1, ahp.pageText);
         Assert.assertEquals("所有家政公司", ahp.pageText.getText());
+        Reporter.log("点击访问查看所有家政公司页面测试通过");
     }
 
     /**
@@ -61,6 +62,7 @@ public class HomeLinkTest extends TestCase{
         AddNewHomemaking anhm = new AddNewHomemaking();
         w.reFresh(1, anhm.pageText);
         Assert.assertEquals("添加新家政", anhm.pageText.getText());
+        Reporter.log("点击访问添加新家政页面测试通过");
     }
 
     /**
@@ -70,9 +72,10 @@ public class HomeLinkTest extends TestCase{
     public void click_humanMakeOrder() {
         HomePage hp = new HomePage();
         this.underElementClick(hp.humenMakeOrder);
-        CreateOrder ho = new CreateOrder();
+        CreateOrderPage ho = new CreateOrderPage();
         w.reFresh(1, ho.pageText);
         Assert.assertEquals("人工下单", ho.pageText.getText());
+        Reporter.log("点击访问人工下单页面测试通过");
     }
 
 }

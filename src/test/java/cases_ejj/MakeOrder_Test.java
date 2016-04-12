@@ -11,6 +11,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import webtest.core.TestCase;
 import webtest.core.page_ejj.dingdanguanli.CreateOrderPage;
+import webtest.core.page_ejj.dingdanguanli.CreateOrderSuccessPage;
 import webtest.core.util.Wait;
 import webtest.core.util.getDate;
 
@@ -56,7 +57,7 @@ public class MakeOrder_Test extends WebTest{
      * @param addr 下单地址
      */
     @Test(dataProvider = "getData")
-    public void addAddress(String jg,String phoneNumber,String addr,String fukuanfangshi) {
+    public void addAddress(String jg,String phoneNumber,String addr,String fukuanfangshi,String xitongzhipai) {
         CreateOrderPage co = new CreateOrderPage();
         co.phoneNumber.sendKeys(phoneNumber);
         w.element(10,co.addressOne_xpath,"xpath");
@@ -72,7 +73,7 @@ public class MakeOrder_Test extends WebTest{
         String addressOne = addressList[0] + " " + addressList[1] + " " + addressList[2] + " " + addressList[3];
 //System.out.println(addressOne);
         Assert.assertEquals(addressOne,addr);
-        Reporter.log("测试添加下单地址通过");
+        Reporter.log("测试添加下单地址测试通过");
         /**
          * 点击选择保洁任务-家庭保洁
          */
@@ -89,25 +90,51 @@ public class MakeOrder_Test extends WebTest{
         co.serviceTimeTwo.click();
         co.serviceTimeOne.click();
         Assert.assertEquals(co.serviceTimeOne.isSelected(),true);
-        Reporter.log("选择服务日期成功");
-        Reporter.log("选择服务时长成功");
+        Reporter.log("选择服务日期测试通过");
+        Reporter.log("选择服务时长测试通过");
         w.reFresh(1,co.fuwushijianduan);
         //w.element(10,co.fuwushijianduanFrist,"xpath");
         co.fuwushijianduan.click();
+//w.time(5);
         Assert.assertEquals(co.fuwushijianduan.isSelected(),true);
-        Reporter.log("选择服务时间段成功");
+        Reporter.log("选择服务时间段测试通过");
         /**
          * 选择支付方式
          */
         if(fukuanfangshi.equals("现金支付")) {
             co.xianjinzhifu.click();
             Assert.assertEquals(co.xianjinzhifu.isSelected(),true);
-            Reporter.log("选择现金支付成功");
+            Reporter.log("选择现金支付测试通过");
         } else {
             co.yuezhifu.click();
             Assert.assertEquals(co.yuezhifu.isSelected(),true);
-            Reporter.log("选择余额支付成功");
+            Reporter.log("选择余额支付测试通过");
         }
+        /**
+         * 选择是否系统指派
+         */
+        if(xitongzhipai.equals("系统指派是")) {
+            Assert.assertEquals(co.xitongzhipai_ture.isSelected(),true);
+            Reporter.log("选择系统指派是测试通过");
+        } else {
+            co.xitongzhipai_false.click();
+            Assert.assertEquals(co.xitongzhipai_false.isSelected(),true);
+            Reporter.log("选择系统指派否测试通过");
+        }
+        /**
+         * 点击创建待指派订单
+         * 然后检查订单是否创建成功
+         */
+        co.chuangjiandaizhipaidingdan.click();
+        CreateOrderSuccessPage cosp = new CreateOrderSuccessPage();
+        w.reFresh(1,cosp.orderAddress);
+        String ad = cosp.orderAddress.getText();
+        String add[] = ad.split(",");
+        String addres = add[0] + " " + add[1] + " " + add[2] + " " + add[3];
+        Assert.assertEquals(addres,addr);
+        Reporter.log("订单创建成功！！！");
+        String orderCode[] =  cosp.orderCode.getText().split("：");
+        //return orderCode[1];
     }
 
 

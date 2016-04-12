@@ -104,6 +104,22 @@ public class CreateOrderPage extends Page{
     @FindBy(xpath = "//*[@id='order-pay_channel_id']/label[2]/input")
     public WebElement yuezhifu;
 
+    /**
+     * 是否系统指派
+     * xitongzhipai_ture:系统指派是
+     * xitongzhipai_false：系统指派否
+     */
+    @FindBy(xpath = "//*[@id='order-order_flag_sys_assign']/label[1]/input")
+    public WebElement xitongzhipai_ture;
+    @FindBy(xpath = "//*[@id='order-order_flag_sys_assign']/label[2]/input")
+    public WebElement xitongzhipai_false;
+
+    /**
+     * 创建待指派订单
+     */
+    @FindBy(id = "submit_button_3")
+    public WebElement chuangjiandaizhipaidingdan;
+
     //客户备注
     @FindBy(id="order-order_customer_memo")
     private WebElement khbz;

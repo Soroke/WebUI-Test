@@ -6,8 +6,28 @@
 	<parameter name="mysql_url" value="jdbc:mysql://127.0.0.1:3306/testdata?characterEncoding=UTF-8" />
 	<parameter name="mysql_user" value="root" />
 	<parameter name="mysql_pwd" value="Song129927" />
+	<!-- 测试目标配置 -->
+	<parameter name="index" value="http://101.200.2.207/" />
+	<parameter name="admin_user" value="admin"/>
+	<parameter name="admin_pass" value="Test2016QA"/>
 
 	<test name="登录测试 -- 浏览器chrome">
+		<parameter name="DriverName" value="chrome" />
+		<parameter name="ChromeDriverPath"
+				   value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />
+		<classes>
+			<class name="cases_ejj.LoginTest"/>
+		</classes>
+	</test>
+	<test name="链接测试 -- 浏览器chrome">
+		<parameter name="DriverName" value="chrome" />
+		<parameter name="ChromeDriverPath"
+				   value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />
+		<classes>
+			<class name="cases_ejj.HomeLinkTest"/>
+		</classes>
+	</test>
+	<test name="下单测试 -- 浏览器chrome">
 		<parameter name="DriverName" value="chrome" />
 		<parameter name="ChromeDriverPath"
 				   value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />
@@ -15,28 +35,4 @@
 			<class name="cases_ejj.MakeOrder_Test"/>
 		</classes>
 	</test>
-	<!--
-        <test name="登录测试 - 浏览器firefox">
-            <parameter name="DriverName" value="firefox" />
-            <parameter name="FirefoxDriverPath" value="D:/Program Files/Mozilla Firefox/firefox.exe" />
-            <classes>
-                <class name="cases_ejj.LoginTest"/>
-                <class name="cases_ejj.HomeLinkTest"/>
-            </classes>
-        </test>
-        -->
-	<!--
-            <test name="登录测试 - 浏览器ie">
-                <parameter name="DriverName" value="ie"/>
-                <classes>
-                    <class name="cases_ejj.LoginTest"/>
-                    <class name="cases_ejj.HomeLinkTest"/>
-                </classes>
-            </test>
-    -->
-
-            <!-- 测试目标配置 -->
-	<parameter name="index" value="http://101.200.2.207" />
-	<parameter name="admin_user" value="admin"/>
-	<parameter name="admin_pass" value="Test2016QA"/>
 </suite>

@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import webtest.core.page_ejj.HomePage;
 import webtest.core.page_ejj.dingdanguanli.CreateOrderPage;
+import webtest.core.page_ejj.dingdanguanli.LookAllOrderPage;
 import webtest.core.page_ejj.jiazhenggongshiguanli.AddNewHomemaking;
 import webtest.core.page_ejj.jiazhenggongshiguanli.LookAllHomemaking;
 import webtest.core.util.Wait;
@@ -63,6 +64,19 @@ public class HomeLinkTest extends WebTest{
         w.reFresh(1, anhm.pageText);
         Assert.assertEquals("添加新家政", anhm.pageText.getText());
         Reporter.log("点击访问添加新家政页面测试通过");
+    }
+
+    /**
+     * 点击访问查看所有订单
+     */
+    @Test(priority = 2)
+    public void click_lookAllOrder() {
+        HomePage hp = new HomePage();
+        this.underElementClick(hp.lookAllOrder);
+        LookAllOrderPage laop = new LookAllOrderPage();
+        w.reFresh(1, laop.orderList);
+        Assert.assertEquals("订单管理", laop.pageText.getText());
+        Reporter.log("点击访问查看所有订单页面测试通过");
     }
 
     /**

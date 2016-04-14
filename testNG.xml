@@ -32,7 +32,7 @@
 		<parameter name="ChromeDriverPath"
 				   value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />
 		<classes>
-			<class name="cases_ejj.MakeOrder_Test"/>
+			<class name="cases_ejj.dingdan.CancelOrderTest"/>
 		</classes>
 	</test>
 </suite>

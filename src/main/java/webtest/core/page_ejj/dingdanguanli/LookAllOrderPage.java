@@ -2,6 +2,7 @@ package webtest.core.page_ejj.dingdanguanli;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import webtest.core.Page;
 
 /**
@@ -11,13 +12,14 @@ public class LookAllOrderPage extends Page {
     /**
      *  页面标题
      */
-    @FindBy(id = "w1")
-    public WebElement orderList;
+
     @FindBy(xpath = "/html/body/div[2]/aside[2]/section[1]/h1")
     public WebElement pageText;
-
-    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[1]/th")
-    public WebElement case1;
+    /**
+     * 订单列表LIST
+     */
+    @FindBy(id = "w1")
+    public WebElement orderList;
 
     /**
      * 搜索模块
@@ -38,5 +40,58 @@ public class LookAllOrderPage extends Page {
     @FindBy(className = "btn btn-primary button-search")
     public WebElement searchButton;
 
+    /**
+     * 第一个订单的订单编号部分
+     */
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[1]/th")
+    public WebElement case1;
+    String s1[] = this.case1.getText().split("        ");
+    String orderCode[] = s1[0].split("：");
+    public String firstOrderCode = orderCode[1];
 
+    /**
+     * 第一个订单的操作按钮依次为
+     * lookOrder:查看订单
+     * complaint:投诉
+     * cancelOrder:取消订单
+     * assignedAunt:指派阿姨
+     * sendMessages:发送短信
+     */
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[5]/p[1]/a")
+    public WebElement lookOrder;
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[5]/p[2]/a")
+    public WebElement complaint;
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[5]/p[3]/a")
+    public WebElement cancelOrder;
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[5]/p[4]/a")
+    public WebElement assignedAunt;
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[5]/p[5]/a")
+    public WebElement sendMessages;
+
+    /**
+     * 取消订单弹出的form
+     * formDIV页面：quxiaoform
+     * 关闭form按钮：closeButton
+     * 取消原因：kehuyuanyin客户原因；gongshiyuanyin公司原因
+     * 具体原因：kehubuxuyao客户不需要;
+     * 备注输入框：beizu
+     * 确认提交按钮：querenanniu
+     */
+    @FindBy(id = "HBox")
+    public WebElement quxiaoform;
+
+    @FindBy(id = "HCloseBtn")
+    public WebElement closeButton;
+
+    @FindBy(xpath = "//*[@id=\"HBox\"]/form/ul/li[1]/div/label[1]/input")
+    public WebElement kehuyuanyin;
+    @FindBy(xpath = "//*[@id=\"HBox\"]/form/ul/li[1]/div/label[2]/input")
+    public WebElement gongshiyuanyin;
+
+    @FindBy(xpath = "//*[@id=\"HBox\"]/form/ul/li[2]/div[1]/label[2]/input")
+    public WebElement kehubuxuyao;
+    @FindBy(id = "text_CancelNote")
+    public WebElement beizu;
+    @FindBy(xpath = "//*[@id=\"HBox\"]/form/ul/li[4]/input")
+    public WebElement querenanniu;
 }

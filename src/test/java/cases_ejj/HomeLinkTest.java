@@ -8,6 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import webtest.core.page_ejj.HomePage;
+import webtest.core.page_ejj.caiwuguanli.RefundAuditPage;
 import webtest.core.page_ejj.dingdanguanli.CreateOrderPage;
 import webtest.core.page_ejj.dingdanguanli.LookAllOrderPage;
 import webtest.core.page_ejj.jiazhenggongshiguanli.AddNewHomemaking;
@@ -90,6 +91,19 @@ public class HomeLinkTest extends WebTest{
         w.reFresh(1, ho.pageText);
         Assert.assertEquals("人工下单", ho.pageText.getText());
         Reporter.log("点击访问人工下单页面测试通过");
+    }
+
+    /**
+     * 点击访问退款审核页面
+     */
+    @Test(priority = 3)
+    public void click_tuikuanshenhe() {
+        HomePage hp = new HomePage();
+        this.underElementClick(hp.tuikuanshenhe);
+        RefundAuditPage rap = new RefundAuditPage();
+        w.reFresh(1, rap.pageText);
+        Assert.assertEquals("退单审核", rap.pageText.getText());
+        Reporter.log("点击访问退单审核页面测试通过");
     }
 
 }

@@ -2,31 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a6d3b0-fa84-4d0e-8b75-e66fe9c687bc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webtest/core/Page.class" afterPath="$PROJECT_DIR$/target/classes/webtest/core/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webtest/core/TestCase$DriverManager.class" afterPath="$PROJECT_DIR$/target/classes/webtest/core/TestCase$DriverManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webtest/core/TestCase.class" afterPath="$PROJECT_DIR$/target/classes/webtest/core/TestCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webtest/core/page_ejj/HomePage.class" afterPath="$PROJECT_DIR$/target/classes/webtest/core/page_ejj/HomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webtest/core/page_ejj/dingdanguanli/LookAllOrderPage.class" afterPath="$PROJECT_DIR$/target/classes/webtest/core/page_ejj/dingdanguanli/LookAllOrderPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/webtest/core/util/Wait.class" afterPath="$PROJECT_DIR$/target/classes/webtest/core/util/Wait.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cases/DemoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/cases/DemoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cases_ejj/HomeLinkTest.class" afterPath="$PROJECT_DIR$/target/test-classes/cases_ejj/HomeLinkTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cases_ejj/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/cases_ejj/LoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cases_ejj/dingdan/CancelOrderTest.class" afterPath="$PROJECT_DIR$/target/test-classes/cases_ejj/dingdan/CancelOrderTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cases_ejj/dingdan/MakeOrder_Test.class" afterPath="$PROJECT_DIR$/target/test-classes/cases_ejj/dingdan/MakeOrder_Test.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/RequestPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/SponsePage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/CenterPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/GuanLi_Cbt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/Header.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/LeftPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/center/bianji/ChongZhiXiangQing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/center/caiwuguanli/ChongZhiJiLuXianShang.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/center/jiekuanguanli/AddJk.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/left/CaiWuGuanLi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/left/GaoJiSheZhi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/left/HuanKuanGuanLi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/left/HuiYuanGuanLi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/left/JieKuanGuanLi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/left/TongJiBaoBiao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/left/TouZiGuanLi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/left/WenZhangGuanLi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/left/XiTongSheZhi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/houtai/left/YeWuSheZhi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/qiantai/Account.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/qiantai/AlOuter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/qiantai/BlOuter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/qiantai/Index.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/qiantai/Invest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/qiantai/Login.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/qiantai/Outer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page/qiantai/Register.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/daily.log" afterPath="$PROJECT_DIR$/logs/daily.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/Page.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/caiwuguanli/RefundAuditPage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/caiwuguanli/RefundAuditPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/LookAllOrderPage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/LookAllOrderPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/util/Wait.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/util/Wait.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases/DemoTest.java" afterPath="$PROJECT_DIR$/src/test/java/cases/DemoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/HomeLinkTest.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/HomeLinkTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/LoginTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testNG.xml" afterPath="$PROJECT_DIR$/testNG.xml" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,8 +130,8 @@
       <file leaf-file-name="Wait.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/util/Wait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="276">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -388,66 +392,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebUI-Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebUI-Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1301,7 +1245,7 @@
       <workItem from="1460717956606" duration="116000" />
       <workItem from="1460946290010" duration="16814000" />
       <workItem from="1461032363902" duration="19387000" />
-      <workItem from="1461119012918" duration="7903000" />
+      <workItem from="1461119012918" duration="8402000" />
     </task>
     <servers />
   </component>
@@ -1338,7 +1282,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149720000" />
+    <option name="totallyTimeSpent" value="150219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1361,11 +1305,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33620688" sideWeight="0.5021322" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28639847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28639847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24616858" sideWeight="0.4978678" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1596,6 +1540,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42">
           <caret line="28" column="46" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1610,6 +1555,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1625,6 +1571,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1632,6 +1579,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1639,6 +1587,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1646,6 +1595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1759,8 +1709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/util/Wait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="276">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
       </provider>

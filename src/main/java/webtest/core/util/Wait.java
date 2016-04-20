@@ -25,7 +25,7 @@ public class Wait {
 				break;
 			} catch (InvalidSelectorException e) {
 				return i;
-			}catch (Exception e) {
+			}catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}

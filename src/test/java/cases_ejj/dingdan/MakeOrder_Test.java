@@ -95,7 +95,7 @@ public class MakeOrder_Test extends WebTest {
         Assert.assertEquals(co.serviceTimeOne.isSelected(),true);
         Reporter.log("选择服务日期测试通过");
         Reporter.log("选择服务时长测试通过");
-        w.reFresh(1,co.fuwushijianduan);
+        w.reFresh(10,co.fuwushijianduan);
         //w.element(10,co.fuwushijianduanFrist,"xpath");
         co.fuwushijianduan.click();
 //w.time(5);

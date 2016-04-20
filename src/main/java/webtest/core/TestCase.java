@@ -1,7 +1,6 @@
 package webtest.core;
 
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.JavascriptExecutor;
@@ -19,8 +18,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import webtest.core.util.Mysql;
-
-import static org.testng.Assert.assertEquals;
 
 /**
  * 所有TestNG TestCase都继承这个类。 这个类的功能是： 1，让testNG可以设置测试执行的浏览器类型

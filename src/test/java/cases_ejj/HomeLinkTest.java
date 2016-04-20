@@ -49,7 +49,7 @@ public class HomeLinkTest extends WebTest{
         HomePage hp = new HomePage();
         this.underElementClick(hp.lookAll_jiazhenggongshi);
         LookAllHomemaking ahp = new LookAllHomemaking();
-        w.reFresh(1, ahp.pageText);
+        w.reFresh(10, ahp.pageText);
         Assert.assertEquals("所有家政公司", ahp.pageText.getText());
         Reporter.log("点击访问查看所有家政公司页面测试通过");
     }
@@ -62,7 +62,7 @@ public class HomeLinkTest extends WebTest{
         HomePage hp = new HomePage();
         this.underElementClick(hp.addNew_jiazheng);
         AddNewHomemaking anhm = new AddNewHomemaking();
-        w.reFresh(1, anhm.pageText);
+        w.reFresh(10, anhm.pageText);
         Assert.assertEquals("添加新家政", anhm.pageText.getText());
         Reporter.log("点击访问添加新家政页面测试通过");
     }
@@ -70,12 +70,12 @@ public class HomeLinkTest extends WebTest{
     /**
      * 点击访问查看所有订单
      */
-    @Test(priority = 2)
+    @Test(priority = 3)
     public void click_lookAllOrder() {
         HomePage hp = new HomePage();
         this.underElementClick(hp.lookAllOrder);
         LookAllOrderPage laop = new LookAllOrderPage();
-        w.reFresh(1, laop.orderList);
+        w.reFresh(10, laop.orderList);
         Assert.assertEquals("订单管理", laop.pageText.getText());
         Reporter.log("点击访问查看所有订单页面测试通过");
     }
@@ -83,12 +83,12 @@ public class HomeLinkTest extends WebTest{
     /**
      * 点击访问人工下单
      */
-    @Test(priority = 3)
+    @Test(priority = 4)
     public void click_humanMakeOrder() {
         HomePage hp = new HomePage();
         this.underElementClick(hp.humenMakeOrder);
         CreateOrderPage ho = new CreateOrderPage();
-        w.reFresh(1, ho.pageText);
+        w.reFresh(10, ho.pageText);
         Assert.assertEquals("人工下单", ho.pageText.getText());
         Reporter.log("点击访问人工下单页面测试通过");
     }
@@ -96,12 +96,12 @@ public class HomeLinkTest extends WebTest{
     /**
      * 点击访问退款审核页面
      */
-    @Test(priority = 3)
+    @Test(priority = 5)
     public void click_tuikuanshenhe() {
         HomePage hp = new HomePage();
         this.underElementClick(hp.tuikuanshenhe);
         RefundAuditPage rap = new RefundAuditPage();
-        w.reFresh(1, rap.pageText);
+        w.reFresh(10, rap.pageText);
         Assert.assertEquals("退单审核", rap.pageText.getText());
         Reporter.log("点击访问退单审核页面测试通过");
     }

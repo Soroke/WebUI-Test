@@ -2,9 +2,7 @@ package webtest.core.util;
 
 import java.util.Date;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -24,14 +22,16 @@ public class Wait {
 			try {
 				Thread.sleep(100);
 				element.getText();
-			} catch (StaleElementReferenceException e) {
+				break;
+			} catch (InvalidSelectorException e) {
 				return i;
-			} catch (Exception e) {
+			}catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
 		return -1;
 	}
+
 	
 	/**
 	 * 

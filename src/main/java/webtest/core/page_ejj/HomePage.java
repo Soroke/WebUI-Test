@@ -13,7 +13,8 @@ public class HomePage extends Page{
 
     //进入欢迎语
     @FindBy(xpath = "/html/body/div[2]/aside[2]/section[1]/h1")
-    public  WebElement huanyingyu;
+    public WebElement huanyingyu;
+    public String huanying = "/html/body/div[2]/aside[2]/section[1]/h1";
 
     /**
      * E家洁图标按钮

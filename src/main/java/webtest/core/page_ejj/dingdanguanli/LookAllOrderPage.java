@@ -44,10 +44,20 @@ public class LookAllOrderPage extends Page {
      * 第一个订单的订单编号部分
      */
     @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[1]/th")
-    public WebElement case1;
+    private WebElement case1;
     String s1[] = this.case1.getText().split("        ");
     String orderCode[] = s1[0].split("：");
     public String firstOrderCode = orderCode[1];
+
+    /**
+     * 第一个订单的订单金额
+     */
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[2]")
+    public WebElement case2;
+    String all[] = case2.getText().split("\\n");
+    String money[] = all[3].split("：");
+    String mon[] = money[1].split("\\.");
+    public String orderMoney = mon[0];
 
     /**
      * 第一个订单的操作按钮依次为

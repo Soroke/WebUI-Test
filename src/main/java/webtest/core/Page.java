@@ -17,6 +17,11 @@ public class Page {
 		this.init();
 		PageFactory.initElements(DriverManager.getDriver(), this);
 	}
+
+	public void reLoad() {
+		this.init();
+		PageFactory.initElements(DriverManager.getDriver(), this);
+	}
 	
 	/**
 	 * 初始化页面的前置条件

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a6d3b0-fa84-4d0e-8b75-e66fe9c687bc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testNG.xml" afterPath="$PROJECT_DIR$/testNG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testNG.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testNG.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="552">
+              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -123,23 +124,20 @@
       <file leaf-file-name="RefundAuditPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/caiwuguanli/RefundAuditPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="295">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CancelOrderTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CancelOrderTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3841">
-              <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
+            <state relative-caret-position="629">
+              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
               <folding>
-                <element signature="e#1081#1082#0" expanded="false" />
-                <element signature="e#1123#1124#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,11 +186,11 @@
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/caiwuguanli/RefundAuditPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/util/Wait.java" />
         <option value="$PROJECT_DIR$/src/test/java/cases/DemoTest.java" />
         <option value="$PROJECT_DIR$/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java" />
       </list>
     </option>
   </component>
@@ -1216,32 +1214,11 @@
       <workItem from="1460946290010" duration="16814000" />
       <workItem from="1461032363902" duration="19387000" />
       <workItem from="1461119012918" duration="9038000" />
-      <workItem from="1461207365646" duration="1167000" />
+      <workItem from="1461207365646" duration="4495000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.20 at 16h 35m 39s.xml">
-      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.20 at 16h 38m 19s.xml">
-      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.20 at 16h 39m 30s.xml">
-      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.20 at 16h 42m 26s.xml">
-      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.20 at 16h 45m 39s.xml">
-      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.20 at 16h 46m 54s.xml">
-      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.20 at 16h 49m 19s.xml">
-      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.20 at 17h 18m 42s.xml">
       <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
     </history-entry>
@@ -1251,9 +1228,30 @@
     <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.20 at 17h 30m 48s.xml">
       <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.21 at 15h 29m 08s.xml">
+      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.21 at 15h 31m 10s.xml">
+      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.21 at 15h 33m 03s.xml">
+      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.21 at 15h 35m 01s.xml">
+      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.21 at 15h 37m 09s.xml">
+      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.21 at 15h 40m 12s.xml">
+      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Git_WebTest-UI_testNG_xml - 2016.04.21 at 16h 35m 09s.xml">
+      <configuration name="E:/Git/WebTest-UI/testNG.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152022000" />
+    <option name="totallyTimeSpent" value="155350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1270,11 +1268,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33620688" sideWeight="0.5021322" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28639847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24616858" sideWeight="0.4978678" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1284,14 +1284,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29885057" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29885057" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28639847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291866" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1572,6 +1570,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1468">
           <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1595,27 +1594,6 @@
             <element signature="e#2142#2143#0" expanded="false" />
             <element signature="e#3259#3260#0" expanded="false" />
             <element signature="e#3315#3316#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3841">
-          <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
-          <folding>
-            <element signature="e#1081#1082#0" expanded="false" />
-            <element signature="e#1123#1124#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/caiwuguanli/RefundAuditPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1662,9 +1640,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="552">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/caiwuguanli/RefundAuditPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

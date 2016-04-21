@@ -165,6 +165,7 @@ public class CancelOrderTest extends WebTest{
         Alert alert2 = DriverManager.getDriver().switchTo().alert();
         Assert.assertEquals("退款成功！",alert1.getText());
         alert2.accept();
+        w.reFresh(10,rap.searchButton);
         Reporter.log("用户退单财务审核通过 测试通过");
 
     }

@@ -63,7 +63,8 @@ public class MakeOrder_Test extends WebTest {
     public void addAddress(String jg,String phoneNumber,String addr,String fukuanfangshi,String xitongzhipai) {
         CreateOrderPage co = new CreateOrderPage();
         co.phoneNumber.sendKeys(phoneNumber);
-        w.element(10,co.addressOne_xpath,"xpath");
+        w.reFresh(10,co.addressOne);
+        //w.element(10,co.addressOne_xpath,"xpath");
         int addrIndex = count_address();
         if(addrIndex == 0) {
             addAddress(addr);

@@ -121,6 +121,7 @@ public class CancelOrderTest extends WebTest{
         RefundAuditPage rap = new RefundAuditPage();
         rap.orderCodeInput_search.sendKeys(orderCode);
         rap.searchButton.click();
+        w.reFresh(10,rap.firstOrderCode);
         /**
          * 检查搜索结果是否为刚刚取消订单的待审核退款信息
          * 检测等待时间10秒

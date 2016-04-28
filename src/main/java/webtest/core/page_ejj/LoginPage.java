@@ -48,7 +48,7 @@ public class LoginPage extends Page {
         userName_text_id.sendKeys(uName);
         userPassword_text_id.clear();
         userPassword_text_id.sendKeys(uPasswd);
-        //w.time(8);
+        w.time(8);
         login_button_xpath.click();
     }
 }

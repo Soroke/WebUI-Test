@@ -9,6 +9,30 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import webtest.core.TestCase.DriverManager;
 
 public class Wait {
+
+
+
+	/**
+	 * 等待alert出现 等待时间10秒
+	 * @param time 最大等待时长
+	 * @param alert alert对象
+	 */
+	public void waitAlert(int time,Alert alert) {
+		for (int i = 0; i < time * 10; i++) {
+			try {
+				Thread.sleep(100);
+				alert = DriverManager.getDriver().switchTo().alert();
+				break;
+			} catch (NoAlertPresentException e) {
+
+			} catch (InvalidSelectorException e) {
+
+			}catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
 	
 	/**
 	 * 等待页面刷新完成

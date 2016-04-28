@@ -1,4 +1,4 @@
-package cases_ejj.dingdan;
+package cases_ejj.dingdan.lookAllOrder;
 
 import cases_ejj.HomeLinkTest;
 import cases_ejj.LoginTest;
@@ -104,7 +104,7 @@ public class CancelOrderTest extends WebTest{
          * 等待alert出现 等待时间10秒
          * 获取取消订单成功alert ，并验证alert的提示信息是否为取消订单成功
          */
-        this.aa(10,alert);
+        w.waitAlert(10,alert);
         alert = DriverManager.getDriver().switchTo().alert();
         Assert.assertEquals("取消订单成功！",alert.getText());
         alert.accept();
@@ -152,7 +152,7 @@ public class CancelOrderTest extends WebTest{
          * 对比alert内容是否为你确定退款?
          * 如果是点击alert的确定按钮
          */
-        this.aa(10,alert);
+        w.waitAlert(10,alert);
         Alert alert1 = DriverManager.getDriver().switchTo().alert();
         Assert.assertEquals("你确定退款?",alert1.getText());
         alert1.accept();
@@ -162,7 +162,7 @@ public class CancelOrderTest extends WebTest{
          * 如果是点击alert的确定按钮
          * 测试完成
          */
-        this.aa(10,alert);
+        w.waitAlert(10,alert);
         Alert alert2 = DriverManager.getDriver().switchTo().alert();
         Assert.assertEquals("退款成功！",alert1.getText());
         alert2.accept();
@@ -172,26 +172,5 @@ public class CancelOrderTest extends WebTest{
     }
 
 
-    /**
-     * 等待alert出现 等待时间10秒
-     * @param time 最大等待时长
-     * @param alert alert对象
-     */
-    public void aa(int time,Alert alert) {
-        for (int i = 0; i < time * 10; i++) {
-            try {
-                Thread.sleep(100);
-                //System.out.println(i);
-                alert = DriverManager.getDriver().switchTo().alert();
-                break;
-            } catch (NoAlertPresentException e) {
-
-            } catch (InvalidSelectorException e) {
-
-            }catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-    }
 
 }

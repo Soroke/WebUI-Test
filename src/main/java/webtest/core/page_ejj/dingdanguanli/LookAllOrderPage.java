@@ -60,6 +60,12 @@ public class LookAllOrderPage extends Page {
     public String orderMoney = mon[0];
 
     /**
+     * 接单阿姨姓名
+     */
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[3]/span[1]")
+    public WebElement ayiName;
+
+    /**
      * 第一个订单的操作按钮依次为
      * lookOrder:查看订单
      * complaint:投诉

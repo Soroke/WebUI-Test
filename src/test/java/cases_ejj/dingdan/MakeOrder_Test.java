@@ -64,7 +64,6 @@ public class MakeOrder_Test extends WebTest {
         CreateOrderPage co = new CreateOrderPage();
         co.phoneNumber.sendKeys(phoneNumber);
         w.reFresh(10,co.addressOne);
-        //w.element(10,co.addressOne_xpath,"xpath");
         int addrIndex = count_address();
         if(addrIndex == 0) {
             addAddress(addr);
@@ -75,7 +74,6 @@ public class MakeOrder_Test extends WebTest {
         String addressOneText = co.addressOneInput.getText();
         String [] addressList = addressOneText.split(" ");
         String addressOne = addressList[0] + " " + addressList[1] + " " + addressList[2] + " " + addressList[3];
-//System.out.println(addressOne);
         Assert.assertEquals(addressOne,addr);
         Reporter.log("测试添加下单地址测试通过");
         /**
@@ -99,7 +97,6 @@ public class MakeOrder_Test extends WebTest {
         w.reFresh(10,co.fuwushijianduan);
         //w.element(10,co.fuwushijianduanFrist,"xpath");
         co.fuwushijianduan.click();
-//w.time(5);
         Assert.assertEquals(co.fuwushijianduan.isSelected(),true);
         Reporter.log("选择服务时间段测试通过");
         /**
@@ -131,14 +128,12 @@ public class MakeOrder_Test extends WebTest {
          */
         co.chuangjiandaizhipaidingdan.click();
         CreateOrderSuccessPage cosp = new CreateOrderSuccessPage();
-        w.reFresh(1,cosp.orderAddress);
+        w.reFresh(10,cosp.createOrder);
         String ad = cosp.orderAddress.getText();
         String add[] = ad.split(",");
         String addres = add[0] + " " + add[1] + " " + add[2] + " " + add[3];
         Assert.assertEquals(addres,addr);
         Reporter.log("订单创建成功！！！");
-        String orderCode[] =  cosp.orderCode.getText().split("：");
-        //return orderCode[1];
     }
 
 

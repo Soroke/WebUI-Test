@@ -41,7 +41,7 @@ public class CreateOrderPage extends Page{
      *  shi：选择城市select
      *  xian:选择县区select
      *  xiangxi:详细信息输入框
-     *  baocun:报错按钮
+     *  baocun:保存按钮
      */
     @FindBy(xpath = "//*[@id=\"order-address_id\"]/div[1]/div[1]/select")
     public WebElement sheng;

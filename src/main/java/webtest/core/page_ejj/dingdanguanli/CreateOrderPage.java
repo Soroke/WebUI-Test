@@ -11,11 +11,24 @@ public class CreateOrderPage extends Page{
     @FindBy(xpath = "/html/body/div[2]/aside[2]/section[1]/h1")
     public WebElement pageText;
 
+
+    /**
+     * 页面body
+     */
+    @FindBy(xpath = "/html/body")
+    public WebElement body;
+
     /**
      * phoneNumber:手机号输入框ID
+     * phoneBody:手机号输入框Body
+     * fuwuxinxiDiV:服务信息的标题DIV
      */
     @FindBy(id = "order-order_customer_phone")
     public WebElement phoneNumber;
+    @FindBy(xpath = "//*[@id=\"order_create_form\"]/div/div[2]/div[1]")
+    public WebElement phoneDiv;
+    @FindBy(xpath = "//*[@id=\"order_create_form\"]/div/div[1]")
+    public WebElement kehuxinxiDiV;
 
     /**
      * 用户的第一个地址
@@ -92,7 +105,7 @@ public class CreateOrderPage extends Page{
 
     @FindBy(xpath = "//*[@id=\"order-orderbookedtimerange\"]/label[1]/input")
     public WebElement fuwushijianduan;
-    public String fuwushijianduanFrist = "//*[@id=\"order-orderbookedtimerange\"]/label[3]/input";
+    //public String fuwushijianduanFrist = "//*[@id=\"order-orderbookedtimerange\"]/label[3]/input";
 
     /**
      * 支付方式

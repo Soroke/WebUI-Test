@@ -6,9 +6,33 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import org.testng.Reporter;
 import webtest.core.TestCase.DriverManager;
 
 public class Wait {
+
+	/**
+	 * 等待某个元素的某个值改变
+	 */
+	public boolean waitElementAttribute(int time,WebElement element,String StyleName,String zhi) {
+
+		boolean b = false;
+		for(int i =0;i<10*time;i++) {
+			//System.err.println(element.getAttribute(StyleName));
+			try{
+				Thread.sleep(100);
+				if(i == 10*time-1) {
+					return b;
+				}else if(element.getAttribute(StyleName).equals(zhi)) {
+					b = true;
+					break;
+				}
+			} catch(Exception e) {
+				e.printStackTrace();
+			}
+		}
+		return b;
+	}
 
 
 
@@ -49,7 +73,9 @@ public class Wait {
 				break;
 			} catch (InvalidSelectorException e) {
 				return i;
-			}catch (InterruptedException e) {
+			} catch (NoSuchElementException e) {
+				//return i;
+			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}

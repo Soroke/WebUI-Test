@@ -43,12 +43,12 @@ public class LoginPage extends Page {
      * @param uPassword 密码
      */
 
-    public void login(String uName,String uPasswd) {
+    public void login(String uName,String uPassword) {
         userName_text_id.clear();
         userName_text_id.sendKeys(uName);
         userPassword_text_id.clear();
-        userPassword_text_id.sendKeys(uPasswd);
-        w.time(8);
+        userPassword_text_id.sendKeys(uPassword);
+        //w.time(8);
         login_button_xpath.click();
     }
 }

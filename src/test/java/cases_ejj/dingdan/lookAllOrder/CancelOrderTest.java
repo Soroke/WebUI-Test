@@ -64,12 +64,17 @@ public class CancelOrderTest extends WebTest{
      * 默认选择取消原因为“客户原因”，具体原因为“用户不需要”
      * 备注默认为“自动化测试取消订单”
      */
+    @Parameters({"user_phone"})
     @Test(priority = 1)
-    public void cancelOrderTest() {
+    public void cancelOrderTest(String userPhone) {
         LookAllOrderPage laop = new LookAllOrderPage();
+        laop.search_userPhoneNumber.sendKeys(userPhone);
+        laop.searchButton.click();
+        Assert.assertEquals(w.waitElementAttribute(10,laop.body,"class","skin-blue fixed  pace-done"),true);
 
         orderCode = laop.firstOrderCode;
         orderMoney = laop.orderMoney;
+        w.reFresh(10,laop.searchButton);
         laop.cancelOrder.click();
         boolean b = true;
         while(b) {
@@ -170,7 +175,4 @@ public class CancelOrderTest extends WebTest{
         Reporter.log("用户退单财务审核通过 测试通过");
 
     }
-
-
-
 }

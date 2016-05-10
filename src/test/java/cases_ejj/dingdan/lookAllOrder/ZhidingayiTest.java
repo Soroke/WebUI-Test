@@ -3,10 +3,7 @@ package cases_ejj.dingdan.lookAllOrder;
 import cases_ejj.HomeLinkTest;
 import cases_ejj.LoginTest;
 import cases_ejj.WebTest;
-import org.omg.IOP.ExceptionDetailMessage;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.InvalidSelectorException;
-import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeMethod;
@@ -25,7 +22,7 @@ public class ZhidingayiTest extends WebTest{
     Alert alert;
     Wait w = new Wait();
     //阿姨姓名
-    String ayiName = "仁坤小";
+    String ayiName = "测试2";
 
     /**
      * 前置条件，测试下单需要先登录 并进入下单页面
@@ -46,21 +43,29 @@ public class ZhidingayiTest extends WebTest{
      * 为订单指派阿姨测试
      * 测试是否能成功指派阿姨
      */
+    @Parameters({"user_phone"})
     @Test
-    public void zhipaiayi() {
+    public void zhipaiayi(String userPhone) {
+        /**
+         * 搜索下单用户的手机号
+         */
+        String orderCoder;
+        LookAllOrderPage laop = new LookAllOrderPage();
+        laop.search_userPhoneNumber.sendKeys(userPhone);
+        laop.searchButton.click();
+        Assert.assertEquals(w.waitElementAttribute(10,laop.body,"class","skin-blue fixed  pace-done"),true);
+
         /**
          * 点击指派阿姨按钮
          * 等待进入人工派单页面
          * 检查进入页面是否为正确页面
          */
-        String orderCoder;
-        LookAllOrderPage laop = new LookAllOrderPage();
         orderCoder = laop.firstOrderCode;
         laop.assignedAunt.click();
         RengongpaidanPage rgpd = new RengongpaidanPage();
         w.reFresh(10,rgpd.pageText);
         if(orderCoder.equals(rgpd.orderCode.getText().split("：")[1]) == false) {
-            System.err.println("人工派单页面不是我们需要的订单");
+            System.err.println("进入人工派单页面失败");
             return;
         } else {
             Reporter.log("测试进入人工派单页面测试通过");
@@ -156,11 +161,13 @@ public class ZhidingayiTest extends WebTest{
             System.err.println(alert.getText());
             return;
         }
+        w.time(1);
         /**
          * 等待自动跳转到查看所有订单页面
          * 并检查订单是否已经指派阿姨
          */
         w.reFresh(10,laop.pageText);
+        Assert.assertEquals(w.waitElementAttribute(10,laop.body,"class","skin-blue fixed  pace-done"),true);
         Assert.assertEquals(laop.ayiName.getText().equals(ayiName),true);
         Reporter.log("指派阿姨测试通过");
 

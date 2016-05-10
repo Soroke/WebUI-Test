@@ -14,7 +14,6 @@ public class HomePage extends Page{
     //进入欢迎语
     @FindBy(xpath = "/html/body/div[2]/aside[2]/section[1]/h1")
     public WebElement huanyingyu;
-    public String huanying = "/html/body/div[2]/aside[2]/section[1]/h1";
 
     /**
      * E家洁图标按钮
@@ -48,15 +47,15 @@ public class HomePage extends Page{
     public WebElement add_gongyingshang;
 
     //查看所有订单
-    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[6]/ul/li[1]/a")
+    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[7]/ul/li[1]/a")
     public WebElement lookAllOrder;
 
     //人工下单
-    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[6]/ul/li[4]/a")
+    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[7]/ul/li[4]/a")
     public WebElement humenMakeOrder;
 
     //退款审核
-    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[9]/ul/li[3]/ul/li[1]/a")
+    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[10]/ul/li[3]/ul/li[1]/a")
     public WebElement tuikuanshenhe;
 
 

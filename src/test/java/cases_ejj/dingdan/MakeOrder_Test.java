@@ -63,13 +63,21 @@ public class MakeOrder_Test extends WebTest {
     public void addAddress(String jg,String phoneNumber,String addr,String fukuanfangshi,String xitongzhipai) {
         CreateOrderPage co = new CreateOrderPage();
         co.phoneNumber.sendKeys(phoneNumber);
-        w.reFresh(10,co.addressOne);
+        co.kehuxinxiDiV.click();
+        Assert.assertEquals(w.waitElementAttribute(10,co.phoneDiv,"class","form-group field-order-order_customer_phone required has-success"),true);
+        //w.reFresh(10,co.addressOne);
         int addrIndex = count_address();
         if(addrIndex == 0) {
             addAddress(addr);
         } else {
-            co.addressOneButton.click();
-            addAddress(addr);
+            String addressOne[] = co.addressOneInput.getText().split(" ");
+            String userAddress = addressOne[0] + " " + addressOne[1] + " " +addressOne[2] + " " +addressOne[3];
+            if(userAddress.equals(addr)) {
+                co.addressOne.click();
+            } else {
+                co.addressOneButton.click();
+                addAddress(addr);
+            }
         }
         String addressOneText = co.addressOneInput.getText();
         String [] addressList = addressOneText.split(" ");
@@ -94,9 +102,11 @@ public class MakeOrder_Test extends WebTest {
         Assert.assertEquals(co.serviceTimeOne.isSelected(),true);
         Reporter.log("选择服务日期测试通过");
         Reporter.log("选择服务时长测试通过");
+        Assert.assertEquals(w.waitElementAttribute(10,co.body,"class","skin-blue fixed  pace-done"),true);
+
         w.reFresh(10,co.fuwushijianduan);
-        //w.element(10,co.fuwushijianduanFrist,"xpath");
         co.fuwushijianduan.click();
+        if(co.fuwushijianduan.isSelected() == false) co.fuwushijianduan.click();
         Assert.assertEquals(co.fuwushijianduan.isSelected(),true);
         Reporter.log("选择服务时间段测试通过");
         /**

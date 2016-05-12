@@ -74,7 +74,7 @@ public class Wait {
 			} catch (InvalidSelectorException e) {
 				return i;
 			} catch (NoSuchElementException e) {
-				//return i;
+
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}

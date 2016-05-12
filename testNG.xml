@@ -18,9 +18,17 @@
 
 	<test name="登录测试 -- 浏览器chrome">
 		<parameter name="DriverName" value="chrome"/>
-		<parameter name="CharomeDriverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe"/>
+		<parameter name="ChromeDriverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe"/>
 		<classes>
 			<class name="cases_ejj.LoginTest"/>
+		</classes>
+	</test>
+
+	<test name="添加家政公司测试 -- 浏览器chrome">
+		<parameter name="DriverName" value="chrome"/>
+		<parameter name="ChromeDriverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe"/>
+		<classes>
+			<class name="cases_ejj.jiazhenggongshi.AddNewHomeMaking_Test"/>
 		</classes>
 	</test>
 
@@ -47,6 +55,4 @@
 			<class name="cases_ejj.dingdan.lookAllOrder.CancelOrderTest" />
 		</classes>
 	</test>
-
-
 </suite>

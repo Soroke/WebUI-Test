@@ -6,6 +6,7 @@ import webtest.core.util.PageTool;
 
 import java.util.Date;
 
+
 /**
  * Created by han on 2016/3/28.
  */
@@ -17,7 +18,7 @@ public class DotTestListener extends TestListenerAdapter {
     @Override
     public void onTestFailure(ITestResult tr) {
         PageTool pt = new PageTool();
-        pt.snapshot(new Date().getTime() + "ErrTest");
+        pt.snapshot(new Date().getTime() + "Error");
         super.onTestFailure(tr);
     }
 
@@ -28,7 +29,7 @@ public class DotTestListener extends TestListenerAdapter {
     @Override
     public void onTestSuccess(ITestResult tr) {
         PageTool pt = new PageTool();
-        pt.snapshot(new Date().getTime() + "");
+        pt.snapshot(new Date().getTime() + "Success");
         super.onTestSuccess(tr);
     }
 }

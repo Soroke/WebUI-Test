@@ -42,7 +42,7 @@ public class AddNewHomemaking extends Page{
      * 营业执照名称、营业地址、注册类型、法人代表、注册号
      */
     @FindBy(id = "shopmanager-bl_name")
-    public WebElement yingyeName;
+    public WebElement yingyezhizhaoName;
     @FindBy(id = "shopmanager-bl_address")
     public WebElement yingyeAddr;
     @FindBy(id = "shopmanager-bl_type")
@@ -65,7 +65,7 @@ public class AddNewHomemaking extends Page{
     @FindBy(id = "shopmanager-bl_audit")
     public WebElement zhuceziben;
     @FindBy(id = "shopmanager-bl_photo_url")
-    public WebElement yingyezhizhao;
+    public WebElement yingyezhizhaoURL;
     @FindBy(id = "shopmanager-bl_business")
     public WebElement yingyefanwei;
 

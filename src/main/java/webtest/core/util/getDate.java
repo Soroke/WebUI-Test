@@ -35,4 +35,20 @@ public class getDate {
         String date2 = hour + ":" + minute + ":" + second;
         return date2;
     }
+
+    /**
+     * 获取电脑时间
+     * @return 返回日期格式例如：2016-4-12
+     */
+    public static int[] getTureDate() {
+        Calendar c = Calendar.getInstance();//可以对每个时间域单独修改
+        int year = c.get(Calendar.YEAR);
+        int month = c.get(Calendar.MONTH);
+        int monthR = month+1;
+        int date = c.get(Calendar.DATE);
+        int dateR = date;
+        int date2[] = {year,monthR,dateR};
+        String date1[] = {String.valueOf(year),String.valueOf(monthR),String.valueOf(dateR)};
+        return date2;
+    }
 }

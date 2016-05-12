@@ -11,9 +11,9 @@ public class HomePage extends Page{
     @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/div[1]/div[2]/p[1]")
     public WebElement userName;
 
-    //进入欢迎语
-    @FindBy(xpath = "/html/body/div[2]/aside[2]/section[1]/h1")
-    public WebElement huanyingyu;
+    //body
+    @FindBy(xpath = "/html/body")
+    public WebElement body;
 
     /**
      * E家洁图标按钮

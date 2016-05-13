@@ -10,7 +10,7 @@
 
     <build>
     	<defaultGoal>compile</defaultGoal>
-        <finalName>test</finalName>
+        <finalName>EJJ_WebTest</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>

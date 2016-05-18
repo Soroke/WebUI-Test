@@ -68,6 +68,10 @@ public class Wait {
 	public int reFresh(int s, WebElement element) {
 		for (int i = 0; i < s * 10; i++) {
 			try {
+				if(i == 99) {
+					System.err.println("页面加载失败！！");
+					return -1;
+				}
 				Thread.sleep(100);
 				element.getText();
 				break;

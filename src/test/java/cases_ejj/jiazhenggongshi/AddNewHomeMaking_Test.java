@@ -65,7 +65,7 @@ public class AddNewHomeMaking_Test extends WebTest {
         anhm.jiedao.sendKeys(bangongjiedao);
         anhm.fuzheren.sendKeys(fuzeren);
         anhm.dianhua.sendKeys(phone);
-        anhm.qitalianxi.sendKeys();
+        anhm.qitalianxi.sendKeys("other");
         /**
          * 输入家政公司营业执信息
          * 营业执照名称、营业地址、注册类型、法人代表、注册号
@@ -91,7 +91,7 @@ public class AddNewHomeMaking_Test extends WebTest {
         anhm.youxiaojieshu.sendKeys(date2);
         anhm.zhuceziben.sendKeys("1000000");
         //附件上传
-        anhm.yingyezhizhaoURL.sendKeys("C:/Users/Public/Pictures/Sample Pictures/" + yingyezhizhaoURL);
+        anhm.yingyezhizhaoURL.sendKeys(yingyezhizhaoURL);
         anhm.yingyefanwei.sendKeys("家庭保洁、新居开荒");
         //点击创建按钮
         anhm.chaungjianButton.click();

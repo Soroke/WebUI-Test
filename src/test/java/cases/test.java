@@ -26,13 +26,8 @@ public class test {
 		System.setProperty("webdriver.chrome.driver", "C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.baidu.com");
-		//driver.findElement(By.xpath("//input[@name='wd']")).sendKeys("阿卡就是疯狂倒计时");
 		List<WebElement> elemetns = driver.findElements(By.xpath("//a[@class = 'mnav']"));
 		this.selectElement(elemetns,"糯米").click();
-		//driver.findElement(By.xpath("//a[@text()='糯米']")).click();
-
-		System.out.println("你好");
-
 	}
 
 	/**

@@ -13,6 +13,8 @@ import webtest.core.page_ejj.dingdanguanli.CreateOrderPage;
 import webtest.core.page_ejj.dingdanguanli.LookAllOrderPage;
 import webtest.core.page_ejj.jiazhenggongshiguanli.AddNewHomemaking;
 import webtest.core.page_ejj.jiazhenggongshiguanli.LookAllHomemaking;
+import webtest.core.page_ejj.mendianduanli.AddShopPage;
+import webtest.core.page_ejj.mendianduanli.LookAllShopPage;
 import webtest.core.util.Wait;
 
 /**
@@ -68,9 +70,35 @@ public class HomeLinkTest extends WebTest{
     }
 
     /**
-     * 点击访问查看所有订单
+     * 点击访问查看所有门店
      */
     @Test(priority = 3)
+    public void click_LookAllShop() {
+        HomePage hp = new HomePage();
+        this.underElementClick(hp.lookAll_mendian);
+        LookAllShopPage lasp = new LookAllShopPage();
+        w.reFresh(10, lasp.pageText);
+        Assert.assertEquals("所有门店", lasp.pageText.getText());
+        Reporter.log("点击访问查看所有门店页面测试通过");
+    }
+
+    /**
+     * 点击访问添加新门店
+     */
+    @Test(priority = 4)
+    public void click_AddNewShop() {
+        HomePage hp = new HomePage();
+        this.underElementClick(hp.add_mendian);
+        AddShopPage asp = new AddShopPage();
+        w.reFresh(10, asp.pageText);
+        Assert.assertEquals("添加门店", asp.pageText.getText());
+        Reporter.log("点击访问添加新门店页面测试通过");
+    }
+
+    /**
+     * 点击访问查看所有订单
+     */
+    @Test(priority = 5)
     public void click_lookAllOrder() {
         HomePage hp = new HomePage();
         this.underElementClick(hp.lookAllOrder);
@@ -83,7 +111,7 @@ public class HomeLinkTest extends WebTest{
     /**
      * 点击访问人工下单
      */
-    @Test(priority = 4)
+    @Test(priority = 6)
     public void click_humanMakeOrder() {
         HomePage hp = new HomePage();
         this.underElementClick(hp.humenMakeOrder);
@@ -96,7 +124,7 @@ public class HomeLinkTest extends WebTest{
     /**
      * 点击访问退款审核页面
      */
-    @Test(priority = 5)
+    @Test(priority = 7)
     public void click_tuikuanshenhe() {
         HomePage hp = new HomePage();
         this.underElementClick(hp.tuikuanshenhe);

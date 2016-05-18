@@ -5,6 +5,8 @@ import org.openqa.selenium.support.FindBy;
 
 import webtest.core.Page;
 
+import java.util.List;
+
 public class HomePage extends Page{
 
     //用户名
@@ -47,16 +49,22 @@ public class HomePage extends Page{
     public WebElement add_gongyingshang;
 
     //查看所有订单
-    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[7]/ul/li[1]/a")
+    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[6]/ul/li[1]/a")
     public WebElement lookAllOrder;
 
     //人工下单
-    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[7]/ul/li[4]/a")
+    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[6]/ul/li[4]/a")
     public WebElement humenMakeOrder;
 
     //退款审核
-    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[10]/ul/li[3]/ul/li[1]/a")
+    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[9]/ul/li[3]/ul/li[1]/a")
     public WebElement tuikuanshenhe;
+
+    /**
+     * 所有的链接
+     */
+    @FindBy(xpath = "//a[@style = 'margin-left: 10px;']")
+    public List<WebElement> LinkAll;
 
 
 }

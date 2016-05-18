@@ -25,7 +25,8 @@ public class LoginTest extends WebTest {
         if(jg.equals(1) || jg.equals("登录成功")){
             jg = "登录成功";
             HomePage hp = new HomePage();
-            w.reFresh(10, hp.userName);
+            w.waitElementAttribute(10,hp.body,"class","skin-blue fixed  pace-done");
+            //w.reFresh(10, hp.userName);
             String[] s = hp.userName.getText().split(",");
             Assert.assertEquals(user, s[1]);
             Reporter.log("正确用户名密码测试登录成功通过");

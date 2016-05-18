@@ -53,7 +53,9 @@ public class ZhidingayiTest extends WebTest{
         LookAllOrderPage laop = new LookAllOrderPage();
         laop.search_userPhoneNumber.sendKeys(userPhone);
         laop.searchButton.click();
-        Assert.assertEquals(w.waitElementAttribute(10,laop.body,"class","skin-blue fixed  pace-done"),true);
+        laop.reLoad();
+        boolean boolea = w.waitElementAttribute(10,laop.body,"class","skin-blue fixed  pace-done");
+        Assert.assertEquals(boolea,true);
 
         /**
          * 点击指派阿姨按钮

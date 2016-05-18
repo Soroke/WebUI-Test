@@ -17,4 +17,7 @@ public class jiazhengxinxiPage extends Page {
      */
     @FindBy(xpath = "//div[@class='kv-attribute']")
     public List<WebElement> managers;
+
+    @FindBy(xpath = "/html/body")
+    public WebElement body;
 }

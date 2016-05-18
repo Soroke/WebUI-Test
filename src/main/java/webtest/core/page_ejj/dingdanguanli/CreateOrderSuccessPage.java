@@ -23,7 +23,7 @@ public class CreateOrderSuccessPage extends Page {
     /**
      * 创建新订单按钮
      */
-    @FindBy(xpath = "//*[@id=\"w0\"]/div/div[1]/h3/button")
+    @FindBy(xpath = "//button[@class='btn btn-warning']")
     public WebElement createOrder;
 
     /**

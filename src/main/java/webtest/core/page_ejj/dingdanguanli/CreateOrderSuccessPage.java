@@ -15,6 +15,12 @@ public class CreateOrderSuccessPage extends Page {
     public WebElement orderCode;
 
     /**
+     * body
+     */
+    @FindBy(xpath = "/html/body")
+    public WebElement body;
+
+    /**
      * 创建新订单按钮
      */
     @FindBy(xpath = "//*[@id=\"w0\"]/div/div[1]/h3/button")

@@ -138,7 +138,8 @@ public class MakeOrder_Test extends WebTest {
          */
         co.chuangjiandaizhipaidingdan.click();
         CreateOrderSuccessPage cosp = new CreateOrderSuccessPage();
-        w.reFresh(10,cosp.createOrder);
+        w.waitElementAttribute(10,cosp.body,"class","skin-blue fixed  pace-done");
+        //w.reFresh(10,cosp.createOrder);
         String ad = cosp.orderAddress.getText();
         String add[] = ad.split(",");
         String addres = add[0] + " " + add[1] + " " + add[2] + " " + add[3];

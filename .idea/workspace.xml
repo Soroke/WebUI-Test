@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="253207ed-144c-4718-bb5e-d755dae47d0d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/jiazhengxinxiPage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/jiazhengxinxiPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderSuccessPage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderSuccessPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java" />
     </list>
     <ignored path="WebUI-Test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,11 +67,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddNewHomeMaking_Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddNewHomeMaking_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+            <state relative-caret-position="23">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakeOrder_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="643">
+              <caret line="146" column="34" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateOrderSuccessPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderSuccessPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -80,8 +100,8 @@
       <file leaf-file-name="jiazhengxinxiPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/jiazhengxinxiPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="345">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -102,16 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
               <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/WebTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,10 +149,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderSuccessPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/RengongpaidanPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java" />
         <option value="D:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/lookAllOrder/CancelOrderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/LoginPage.java" />
@@ -166,6 +174,8 @@
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/lookAllOrder/ZhidingayiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/jiazhengxinxiPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderSuccessPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java" />
       </list>
     </option>
   </component>
@@ -1180,7 +1190,7 @@
       <workItem from="1463366498468" duration="1405000" />
       <workItem from="1463387455311" duration="1401000" />
       <workItem from="1463471495149" duration="2443000" />
-      <workItem from="1463537340843" duration="18414000" />
+      <workItem from="1463537340843" duration="20494000" />
     </task>
     <servers />
   </component>
@@ -1217,11 +1227,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144446000" />
+    <option name="totallyTimeSpent" value="146526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1232,7 +1242,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26915708" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15804598" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26436782" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19349681" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -1311,13 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderSuccessPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1550,16 +1553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="73" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1569,7 +1562,7 @@
         <state relative-caret-position="414">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1630,6 +1623,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/jiazhengxinxiPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/lookAllOrder/ZhidingayiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -1638,18 +1647,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/jiazhengxinxiPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderSuccessPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="345">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+        <state relative-caret-position="643">
+          <caret line="146" column="34" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
           <folding />
         </state>
       </provider>

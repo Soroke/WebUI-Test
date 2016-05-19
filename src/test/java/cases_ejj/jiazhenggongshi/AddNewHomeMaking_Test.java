@@ -3,6 +3,7 @@ package cases_ejj.jiazhenggongshi;
 import cases_ejj.HomeLinkTest;
 import cases_ejj.LoginTest;
 import cases_ejj.WebTest;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -98,8 +99,9 @@ public class AddNewHomeMaking_Test extends WebTest {
 
         jiazhengxinxiPage jzgs = new jiazhengxinxiPage();
         w.waitElementAttribute(10,jzgs.body,"class","skin-blue fixed  pace-done");
-        w.reFresh(10,this.selectElement(jzgs.managers,JZMZ));
-        Assert.assertEquals(this.selectElement(jzgs.managers,JZMZ).getText(),JZMZ);
+        WebElement jiazName = selectElement(jzgs.managers,JZMZ);
+        //w.reFresh(10,this.selectElement(jzgs.managers,JZMZ));
+        Assert.assertEquals(jiazName.getText(),JZMZ);
         Assert.assertEquals(this.selectElement(jzgs.managers,phone).getText(),phone);
         Reporter.log("创建家政公司成功");
 

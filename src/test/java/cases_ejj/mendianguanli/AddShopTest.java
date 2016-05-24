@@ -5,6 +5,7 @@ import cases_ejj.LoginTest;
 import cases_ejj.WebTest;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -40,8 +41,8 @@ public class AddShopTest extends WebTest {
     public void addMD(String jg,String mendianName,String address,String bangongjiedao,String fuzeren,String phone,String jiazhengName,String bankName,String zhihangName,String kaihuAddr,String kaihuren,String yinhangkahao) {
         int date[] = getDate.getTureDate();
         /**
-         * 设置家政公司名字后添加时间
-         * 并输入家政公司名字
+         * 设置门店名字后添加时间
+         * 并输入门店名字
          */
         String dateSec = getDate.getDateSceond();
         AddShopPage asp = new AddShopPage();
@@ -58,7 +59,7 @@ public class AddShopTest extends WebTest {
         s2.selectByVisibleText(add[1]);
         s3.selectByVisibleText(add[2]);
         asp.jiedao.sendKeys(bangongjiedao);
-
+        Reporter.log("选择地址和办公街道成功");
         /**
          * 选择归属家政公司
          * 点击下拉按钮，等待改span元素的aria-expanded选项变为true
@@ -69,13 +70,14 @@ public class AddShopTest extends WebTest {
         w.waitElementAttribute(10,asp.guishujiazheng,"aria-expanded","true");
         asp.reLoad();
         this.selectElement(asp.AllLi,jiazhengName).click();
-        //System.err.println(jiazhengName);
+        //System.err.println(jiazhengName);process
         /**
          * 输入、负责人、电话、其他联系方式
          */
         asp.fuzheren.sendKeys(fuzeren);
         asp.dianhua.sendKeys(phone);
         asp.qitalianxi.sendKeys("other");
+        Reporter.log("门店基础信息数据完成");
 
         /**
          * 设置银行信息
@@ -93,7 +95,7 @@ public class AddShopTest extends WebTest {
         asp.kaihuAddress.sendKeys(kaihuAddr);
         asp.kaihuren.sendKeys(kaihuren);
         asp.yinhangkahao.sendKeys(yinhangkahao);
-
+        Reporter.log("银行信息输入成功");
         /**
          * 点击创建按钮
          */
@@ -111,5 +113,6 @@ public class AddShopTest extends WebTest {
         w.waitElementAttribute(10,lasp.body,"class","skin-blue fixed  pace-done");
         Assert.assertEquals(lasp.firstShopName.getText(),MDMZ);
         Assert.assertEquals(lasp.firstShopPhone.getText(),phone);
+        Reporter.log("门店添加成功");
     }
 }

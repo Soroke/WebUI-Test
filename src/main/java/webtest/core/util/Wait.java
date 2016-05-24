@@ -13,6 +13,10 @@ public class Wait {
 
 	/**
 	 * 等待某个元素的某个值改变
+	 * @param time 等待刷新时间
+	 * @param element 需要等待的元素名
+	 * @param StyleName 等待的元素名
+	 * @param zhi	等待元素变为哪个值
 	 */
 	public boolean waitElementAttribute(int time,WebElement element,String StyleName,String zhi) {
 
@@ -69,7 +73,7 @@ public class Wait {
 		for (int i = 0; i < s * 10; i++) {
 			try {
 				if(i == 99) {
-					System.err.println("页面加载失败！！");
+					System.err.println("加载失败！！");
 					return -1;
 				}
 				Thread.sleep(100);

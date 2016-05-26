@@ -11,6 +11,8 @@ import webtest.core.page_ejj.HomePage;
 import webtest.core.page_ejj.caiwuguanli.RefundAuditPage;
 import webtest.core.page_ejj.dingdanguanli.CreateOrderPage;
 import webtest.core.page_ejj.dingdanguanli.LookAllOrderPage;
+import webtest.core.page_ejj.fuwugongyingshang.AddSupplierPage;
+import webtest.core.page_ejj.fuwugongyingshang.LookAllSupplierPage;
 import webtest.core.page_ejj.jiazhenggongshiguanli.AddNewHomemaking;
 import webtest.core.page_ejj.jiazhenggongshiguanli.LookAllHomemaking;
 import webtest.core.page_ejj.mendianduanli.AddShopPage;
@@ -96,9 +98,35 @@ public class HomeLinkTest extends WebTest{
     }
 
     /**
-     * 点击访问查看所有订单
+     * 点击访问查看所有供应商公司
      */
     @Test(priority = 5)
+    public void click_LookAllSupplier() {
+        HomePage hp = new HomePage();
+        this.underElementClick(hp.lookAll_fuwugongyinghsang);
+        LookAllSupplierPage lasup = new LookAllSupplierPage();
+        w.reFresh(10, lasup.pageText);
+        Assert.assertEquals("供应商管理", lasup.pageText.getText());
+        Reporter.log("点击访问查看所有供应商公司页面测试通过");
+    }
+
+    /**
+     * 点击访问添加供应商公司
+     */
+    @Test(priority = 6)
+    public void click_AddSupplierPage() {
+        HomePage hp = new HomePage();
+        this.underElementClick(hp.add_gongyingshang);
+        AddSupplierPage addslp = new AddSupplierPage();
+        w.reFresh(10, addslp.pageText);
+        Assert.assertEquals("添加供应商", addslp.pageText.getText());
+        Reporter.log("点击访问添加供应商公司页面测试通过");
+    }
+
+    /**
+     * 点击访问查看所有订单
+     */
+    @Test(priority = 7)
     public void click_lookAllOrder() {
         HomePage hp = new HomePage();
         this.underElementClick(hp.lookAllOrder);
@@ -111,7 +139,7 @@ public class HomeLinkTest extends WebTest{
     /**
      * 点击访问人工下单
      */
-    @Test(priority = 6)
+    @Test(priority = 8)
     public void click_humanMakeOrder() {
         HomePage hp = new HomePage();
         this.underElementClick(hp.humenMakeOrder);
@@ -124,7 +152,7 @@ public class HomeLinkTest extends WebTest{
     /**
      * 点击访问退款审核页面
      */
-    @Test(priority = 7)
+    @Test(priority = 9)
     public void click_tuikuanshenhe() {
         HomePage hp = new HomePage();
         this.underElementClick(hp.tuikuanshenhe);

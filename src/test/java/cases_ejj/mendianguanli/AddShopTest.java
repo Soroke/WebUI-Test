@@ -39,7 +39,7 @@ public class AddShopTest extends WebTest {
 
     @Test(dataProvider = "getData")
     public void addMD(String jg,String mendianName,String address,String bangongjiedao,String fuzeren,String phone,String jiazhengName,String bankName,String zhihangName,String kaihuAddr,String kaihuren,String yinhangkahao) {
-        int date[] = getDate.getTureDate();
+        int date[] = getDate.getIntArrayDate();
         /**
          * 设置门店名字后添加时间
          * 并输入门店名字

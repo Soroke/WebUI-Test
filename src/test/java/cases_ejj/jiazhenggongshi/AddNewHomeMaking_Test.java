@@ -41,7 +41,7 @@ public class AddNewHomeMaking_Test extends WebTest {
 
     @Test(dataProvider = "getData")
     public void addJZ(String jg,String jiazhengName,String address,String bangongjiedao,String fuzeren,String phone,String zhizhaoName,String yingyedizhi,String farendaibiao,String zhucehao,String yingyezhizhaoURL) {
-        int date[] = getDate.getTureDate();
+        int date[] = getDate.getIntArrayDate();
         /**
          * 设置家政公司名字后添加时间
          * 并输入家政公司名字

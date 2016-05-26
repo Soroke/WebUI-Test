@@ -48,6 +48,14 @@
 		</classes>
 	</test>
 
+	<test name="创建服务供应商 -- 浏览器chrome">
+		<parameter name="DriverName" value="chrome"/>
+		<parameter name="ChromeDriverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />
+		<classes>
+			<class name="cases_ejj.fuwugongyingshang.AddSuplierTest" />
+		</classes>
+	</test>
+
 	<test name="人工下单测试 -- 浏览器chrome">
 		<parameter name="DriverName" value="chrome"/>
 		<parameter name="ChromeDriverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />
@@ -71,4 +79,5 @@
 			<class name="cases_ejj.dingdan.lookAllOrder.CancelOrderTest" />
 		</classes>
 	</test>
+
 </suite>

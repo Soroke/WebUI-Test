@@ -18,8 +18,23 @@ public class getDate {
         int year = c.get(Calendar.YEAR);
         int month = c.get(Calendar.MONTH);
         int monthR = month+1;
-        int date = c.get(Calendar.DATE);
-        int dateR = date+1;
+        int dateR = c.get(Calendar.DATE);
+        if(monthR == 1 || monthR == 3 || monthR == 5 || monthR == 7 || monthR == 8 || monthR == 10 || monthR == 12) {
+            if(dateR == 31) {
+                monthR++;
+                dateR = 1;
+            }
+        } else if(monthR == 2){
+            if(dateR == 28) {
+                monthR++;
+                dateR = 1;
+            }
+        } else {
+            if(dateR == 30) {
+                monthR++;
+                dateR = 1;
+            }
+        }
         String date1 = year + "-" + monthR + "-" + dateR;
         return date1;
     }

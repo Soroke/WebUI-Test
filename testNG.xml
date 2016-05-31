@@ -79,5 +79,4 @@
 			<class name="cases_ejj.dingdan.lookAllOrder.CancelOrderTest" />
 		</classes>
 	</test>
-
 </suite>

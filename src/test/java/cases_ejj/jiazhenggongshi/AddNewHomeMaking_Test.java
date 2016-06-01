@@ -99,6 +99,7 @@ public class AddNewHomeMaking_Test extends WebTest {
 
         jiazhengxinxiPage jzgs = new jiazhengxinxiPage();
         w.waitElementAttribute(10,jzgs.body,"class","skin-blue fixed  pace-done");
+        jzgs.reLoad();
         WebElement jiazName = selectElement(jzgs.managers,JZMZ);
         //w.reFresh(10,this.selectElement(jzgs.managers,JZMZ));
         Assert.assertEquals(jiazName.getText(),JZMZ);

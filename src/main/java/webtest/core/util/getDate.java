@@ -23,16 +23,22 @@ public class getDate {
             if(dateR == 31) {
                 monthR++;
                 dateR = 1;
+            } else {
+                dateR++;
             }
         } else if(monthR == 2){
             if(dateR == 28) {
                 monthR++;
                 dateR = 1;
+            }else {
+                dateR++;
             }
         } else {
             if(dateR == 30) {
                 monthR++;
                 dateR = 1;
+            }else {
+                dateR++;
             }
         }
         String date1 = year + "-" + monthR + "-" + dateR;

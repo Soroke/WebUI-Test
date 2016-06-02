@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="253207ed-144c-4718-bb5e-d755dae47d0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/AddNewAunt.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/AddNewAunt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/HomeLinkTest.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/HomeLinkTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testNG.xml" afterPath="$PROJECT_DIR$/testNG.xml" />
     </list>
     <ignored path="WebUI-Test.iws" />
@@ -64,8 +60,8 @@
       <file leaf-file-name="testNG.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-483">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="-161">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -1315,7 +1311,7 @@
       <workItem from="1464574673954" duration="4590000" />
       <workItem from="1464661356171" duration="4963000" />
       <workItem from="1464747646769" duration="9272000" />
-      <workItem from="1464834607984" duration="8625000" />
+      <workItem from="1464834607984" duration="8847000" />
     </task>
     <servers />
   </component>
@@ -1352,7 +1348,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240590000" />
+    <option name="totallyTimeSpent" value="240812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1766,8 +1762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="-161">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>

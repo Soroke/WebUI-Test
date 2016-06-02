@@ -20,7 +20,7 @@
 		<parameter name="DriverName" value="chrome"/>
 		<parameter name="ChromeDriverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />
 		<classes>
-			<class name="cases_ejj.ayiguanli.AddAuntTest" />
+			<class name="cases_ejj.LoginTest" />
 		</classes>
 	</test>
 

@@ -3,6 +3,8 @@ package cases_ejj.ayiguanli;
 import cases_ejj.HomeLinkTest;
 import cases_ejj.LoginTest;
 import cases_ejj.NoMethodOpenBrowser;
+import org.openqa.selenium.NoSuchElementException;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -77,6 +79,7 @@ public class AddAuntTest extends NoMethodOpenBrowser {
     public void BasicInformation2() {
         AddNewAunt ana = new AddNewAunt();
         ana.ayitouxiang.sendKeys("C:/Users/Public/Pictures/Sample Pictures/阿姨头像.jpg");
+        w.time(1);
         ana.laiyuan.click();
         w.waitElementAttribute(10,ana.laiyuan,"aria-expanded","true");
         ana.reLoad();
@@ -168,8 +171,43 @@ public class AddAuntTest extends NoMethodOpenBrowser {
         //银行卡开户地
         this.selectElementAttribute(ana.inputs,"placeholder","输入银行卡开户地...").sendKeys("北京市朝阳区光华路");
         //银行卡号
-        this.selectElementAttribute(ana.inputs,"placeholder","输入银行卡号...").sendKeys("440307104571663");
+        this.selectElementAttribute(ana.inputs,"placeholder","输入银行卡号...").sendKeys("4403071045716636");
+        //点击创建按钮
         ana.createButton.click();
-        w.time(5);
+        /**
+         * 等待页面刷新，然后设置排班表
+         */
+        w.waitElementAttribute(10,ana.body,"class","skin-blue fixed  pace-done");
+        Assert.assertEquals(ana.pageText.getText(),AYXM);
+        Reporter.log("阿姨创建成功");
+    }
+    /**
+     * 排班表保存
+     */
+    @Test(priority = 7)
+    public void paibanbiao() {
+        int date1[] = getDate.getIntArrayDate();
+        int day = date1[2];
+        String dateStart = String.valueOf(date1[1]) + "/" + String.valueOf(day) + "/" + String.valueOf(date1[0]);
+        int year = date1[0] + 5;
+        String dateEnd = String.valueOf(date1[1]) + "/" + String.valueOf(day) + "/" + String.valueOf(year);
+        AddNewAunt ana = new AddNewAunt();
+        ana.shijiankongjian.click();
+        w.waitElementAttribute(10,ana.div,"class","drp-container input-group active");
+        ana.reLoad();
+        ana.paibanStartTime.clear();
+        ana.paibanStartTime.sendKeys(dateStart);
+        ana.paibanEndTime.clear();
+        ana.paibanEndTime.sendKeys(dateEnd);
+        ana.chooseButton.click();
+        ana.savepaibanbiao.click();
+        w.waitElementAttribute(10,ana.body,"class","skin-blue fixed  pace-done");
+        try{
+            ana.reLoad();
+            ana.paibanbiaoSome.getText();
+        } catch(NoSuchElementException e) {
+            e.printStackTrace();
+        }
+        Reporter.log("阿姨排班表保存成功");
     }
 }

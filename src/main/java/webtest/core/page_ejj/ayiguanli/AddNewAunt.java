@@ -18,6 +18,11 @@ public class AddNewAunt extends Page{
     public WebElement pageText;
 
     /**
+     * body
+     */
+    @FindBy(xpath = "/html/body")
+    public WebElement body;
+    /**
      * 所有的input
      */
     @FindBy(xpath = "//input[@class='form-control']")
@@ -79,4 +84,28 @@ public class AddNewAunt extends Page{
      */
     @FindBy(xpath = "//button[@class='btn btn-success']")
     public WebElement createButton;
+
+    /**
+     * 排班表保存页面
+     */
+    @FindBy(id = "w4-container")
+    public WebElement div;
+    @FindBy(xpath = "//span[@class='form-control text-right']")
+    public WebElement shijiankongjian;
+
+    //开始时间、结束时间
+    @FindBy(xpath = "//input[@name='daterangepicker_start']")
+    public WebElement paibanStartTime;
+    @FindBy(xpath = "//input[@name='daterangepicker_end']")
+    public WebElement paibanEndTime;
+
+    //选择按钮
+    @FindBy(xpath = "//button[@class='applyBtn btn btn-small btn-sm btn-success']")
+    public WebElement chooseButton;
+    //保存排班表按钮
+    @FindBy(id = "btn-submit")
+    public WebElement savepaibanbiao;
+    //排班表某个字段
+    @FindBy(xpath = "//*[@id=\"schedule-list\"]/div/div[2]/table/tbody/tr[1]/th[1]")
+    public WebElement paibanbiaoSome;
 }

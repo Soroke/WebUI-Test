@@ -48,6 +48,9 @@ public class HomePage extends Page{
     @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[3]/ul/li[2]/a")
     public WebElement add_gongyingshang;
 
+    @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[4]/ul/li[2]/a")
+    public WebElement add_NewAunt;
+
     //查看所有订单
     @FindBy(xpath = "/html/body/div[2]/aside[1]/div/section/ul/li[6]/ul/li[1]/a")
     public WebElement lookAllOrder;

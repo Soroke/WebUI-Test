@@ -8,6 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import webtest.core.page_ejj.HomePage;
+import webtest.core.page_ejj.ayiguanli.AddNewAunt;
 import webtest.core.page_ejj.caiwuguanli.RefundAuditPage;
 import webtest.core.page_ejj.dingdanguanli.CreateOrderPage;
 import webtest.core.page_ejj.dingdanguanli.LookAllOrderPage;
@@ -121,6 +122,19 @@ public class HomeLinkTest extends WebTest{
         w.reFresh(10, addslp.pageText);
         Assert.assertEquals("添加供应商", addslp.pageText.getText());
         Reporter.log("点击访问添加供应商公司页面测试通过");
+    }
+
+    /**
+     * 点击访问添加阿姨
+     */
+    @Test(priority = 6)
+    public void click_AddNewAunt() {
+        HomePage hp = new HomePage();
+        this.underElementClick(hp.add_NewAunt);
+        AddNewAunt addAunt = new AddNewAunt();
+        w.reFresh(10, addAunt.pageText);
+        Assert.assertEquals("录入新阿姨", addAunt.pageText.getText());
+        Reporter.log("点击访问添加阿姨页面测试通过");
     }
 
     /**

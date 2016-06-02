@@ -4,6 +4,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import webtest.core.Page;
 
+import java.util.List;
+
 /**
  * Created by Administrator on 2016-05-27.
  * 录入新阿姨
@@ -19,8 +21,62 @@ public class AddNewAunt extends Page{
      * 所有的input
      */
     @FindBy(xpath = "//input[@class='form-control']")
-    public WebElement inputs;
+    public List<WebElement> inputs;
+
+    /**
+     * 所有的span下拉选（非select）
+     */
+    @FindBy(xpath = "//span[@aria-labelledby='select2-worker-worker_work_city-container']")
+    public WebElement chenghsi;
+    @FindBy(xpath = "//span[@aria-labelledby='select2-worker-shop_id-container']")
+    public WebElement mendian;
+    @FindBy(xpath = "//span[@aria-labelledby='select2-workerext-worker_source-container']")
+    public WebElement laiyuan;
+    @FindBy(xpath = "//span[@aria-labelledby='select2-workerext-worker_edu-container']")
+    public WebElement jiaoyuchengdu;
+    @FindBy(xpath = "//span[@aria-labelledby='select2-workerinsurancerelation-worker_insurance_id-container']")
+    public WebElement jiaonafangshi;
+    @FindBy(xpath = "//span[@aria-labelledby='select2-worker-worker_identity_id-container']")
+    public WebElement ayishenfen;
+    @FindBy(xpath = "//span[@aria-labelledby='select2-workerext-worker_live_province-container']")
+    public WebElement juzhudi_sheng;
+    @FindBy(xpath = "//span[@aria-labelledby='select2-workerext-worker_live_city-container']")
+    public WebElement juzhudi_shi;
+    @FindBy(xpath = "//span[@aria-labelledby='select2-workerext-worker_live_area-container']")
+    public WebElement juzhudi_xian;
 
 
+    /**
+     * 所有的隐藏li标签
+     * 所有的家政公司（归属家政公司选择的下拉选项）
+     * 所有的银行，选择银行的下拉选项
+     */
+    @FindBy(xpath = "//li[@role='treeitem']")
+    public List<WebElement> AllLi;
 
+    /**
+     * 阿姨头像
+     */
+    @FindBy(id = "worker-worker_photo")
+    public WebElement ayitouxiang;
+
+    /**
+     * 下拉选非select、非span
+     */
+    @FindBy(xpath = "//input[@class='select2-search__field']")
+    public List<WebElement> selects;
+
+    /**
+     * 保险缴纳起止时间
+     */
+    @FindBy(id = "workerinsurancerelation-worker_insurance_start_time")
+    public WebElement startTime;
+    @FindBy(id = "workerinsurancerelation-worker_insurance_end_time")
+    public WebElement endTime;
+
+    /**
+     * 创建按钮
+     */
+    @FindBy(xpath = "//button[@class='btn btn-success']")
+    public WebElement createButton;
 }

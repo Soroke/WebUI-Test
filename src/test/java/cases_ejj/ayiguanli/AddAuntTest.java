@@ -67,8 +67,8 @@ public class AddAuntTest extends NoMethodOpenBrowser {
         this.selectElement(ana.AllLi,"北京市").click();
         ana.mendian.click();
         w.waitElementAttribute(10,ana.mendian,"aria-expanded","true");
-        ana.reLoad();
         w.time(1);
+        ana.reLoad();
         this.selectElement(ana.AllLi,"测试门店").click();
         Reporter.log("阿姨基础信息录入成功输入成功");
     }
@@ -82,6 +82,7 @@ public class AddAuntTest extends NoMethodOpenBrowser {
         w.time(1);
         ana.laiyuan.click();
         w.waitElementAttribute(10,ana.laiyuan,"aria-expanded","true");
+        w.reFresh(10,selectElement(ana.AllLi,"蓝领招聘"));
         ana.reLoad();
         this.selectElement(ana.AllLi,"蓝领招聘").click();
         this.selectElementAttribute(ana.inputs,"placeholder","输入阿姨姓名...").sendKeys(AYXM);
@@ -108,6 +109,7 @@ public class AddAuntTest extends NoMethodOpenBrowser {
         //选择保险缴纳方式
         ana.jiaonafangshi.click();
         w.waitElementAttribute(10,ana.jiaonafangshi,"aria-expanded","true");
+        w.reFresh(10,selectElement(ana.AllLi,"e家洁缴纳"));
         ana.reLoad();
         this.selectElement(ana.AllLi,"e家洁缴纳").click();
         //缴费金额
@@ -118,6 +120,7 @@ public class AddAuntTest extends NoMethodOpenBrowser {
         //选择阿姨身份
         ana.ayishenfen.click();
         w.waitElementAttribute(10,ana.ayishenfen,"aria-expanded","true");
+        w.reFresh(10,selectElement(ana.AllLi,"全时"));
         ana.reLoad();
         this.selectElement(ana.AllLi,"全时").click();
         //阿姨服务种类
@@ -142,16 +145,19 @@ public class AddAuntTest extends NoMethodOpenBrowser {
          */
         ana.juzhudi_sheng.click();
         w.waitElementAttribute(10,ana.juzhudi_sheng,"aria-expanded","true");
+        w.reFresh(10,selectElement(ana.AllLi,"北京"));
         ana.reLoad();
         this.selectElement(ana.AllLi,"北京").click();
 
         ana.juzhudi_shi.click();
         w.waitElementAttribute(10,ana.juzhudi_shi,"aria-expanded","true");
+        w.reFresh(10,selectElement(ana.AllLi,"北京市"));
         ana.reLoad();
         this.selectElement(ana.AllLi,"北京市").click();
 
         ana.juzhudi_xian.click();
         w.waitElementAttribute(10,ana.juzhudi_xian,"aria-expanded","true");
+        w.reFresh(10,selectElement(ana.AllLi,"朝阳区"));
         ana.reLoad();
         this.selectElement(ana.AllLi,"朝阳区").click();
         //详细地址
@@ -178,6 +184,7 @@ public class AddAuntTest extends NoMethodOpenBrowser {
          * 等待页面刷新，然后设置排班表
          */
         w.waitElementAttribute(10,ana.body,"class","skin-blue fixed  pace-done");
+        w.reFresh(10,ana.shijiankongjian);
         Assert.assertEquals(ana.pageText.getText(),AYXM);
         Reporter.log("阿姨创建成功");
     }

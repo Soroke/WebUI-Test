@@ -103,6 +103,7 @@ public class AddSuplierTest extends NoMethodOpenBrowser {
         this.selectElementAttribute(asp.inputs,"placeholder","输入供应商营业地址...").sendKeys("北京市朝阳区大悦城商圈");
         asp.zhuceleixing.click();
         w.waitElementAttribute(10,asp.zhuceleixing,"aria-expanded","true");
+        w.reFresh(10,selectElement(asp.AllLi,"商户"));
         asp.reLoad();
         this.selectElement(asp.AllLi,"商户").click();
         this.selectElementAttribute(asp.inputs,"placeholder","输入供应商注册号...").sendKeys("2016010001");
@@ -133,9 +134,8 @@ public class AddSuplierTest extends NoMethodOpenBrowser {
         this.selectElementAttribute(asp.inputs,"placeholder","输入供应商银行支行名称...").sendKeys("朝阳大悦城支行");
         Reporter.log("银行信息输入成功");
         asp.createButton.click();
-        xiugaiPage xiugai = new xiugaiPage();
-        w.waitElementAttribute(10,xiugai.body,"class","skin-blue fixed  pace-done");
-        if(this.selectElement(xiugai.divs,GYSMZ) != null && this.selectElement(xiugai.divs,phone) != null) {
+        w.waitElementAttribute(10,asp.body,"class","skin-blue fixed  pace-done");
+        if(this.selectElement(asp.divs,GYSMZ) != null && this.selectElement(asp.divs,phone) != null) {
             Reporter.log("创建服务供应商成功");
         }
     }

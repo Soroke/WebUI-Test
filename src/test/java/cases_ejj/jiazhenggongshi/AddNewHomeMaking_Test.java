@@ -97,13 +97,11 @@ public class AddNewHomeMaking_Test extends WebTest {
         //点击创建按钮
         anhm.chaungjianButton.click();
 
-        jiazhengxinxiPage jzgs = new jiazhengxinxiPage();
-        w.waitElementAttribute(10,jzgs.body,"class","skin-blue fixed  pace-done");
-        jzgs.reLoad();
-        WebElement jiazName = selectElement(jzgs.managers,JZMZ);
-        //w.reFresh(10,this.selectElement(jzgs.managers,JZMZ));
-        Assert.assertEquals(jiazName.getText(),JZMZ);
-        Assert.assertEquals(this.selectElement(jzgs.managers,phone).getText(),phone);
+        w.waitElementAttribute(10,anhm.body,"class","skin-blue fixed  pace-done");
+        anhm.reLoad();
+        w.reFresh(10,this.selectElement(anhm.managers,JZMZ));
+        Assert.assertEquals(selectElement(anhm.managers,JZMZ).getText(),JZMZ);
+        Assert.assertEquals(this.selectElement(anhm.managers,phone).getText(),phone);
         Reporter.log("创建家政公司成功");
 
     }

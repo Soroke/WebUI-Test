@@ -74,4 +74,17 @@ public class AddSupplierPage extends Page{
      */
     @FindBy(xpath = "//button[@class='btn btn-success']")
     public WebElement createButton;
+
+    /**
+     * body
+     */
+    @FindBy(xpath = "/html/body")
+    public WebElement body;
+
+    /**
+     * 所有的服务供应商信息
+     *
+     */
+    @FindBy(xpath = "//div[@class='kv-attribute']")
+    public List<WebElement> divs;
 }

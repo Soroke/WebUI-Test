@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="253207ed-144c-4718-bb5e-d755dae47d0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testNG.xml" afterPath="$PROJECT_DIR$/testNG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/AddSupplierPage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/AddSupplierPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/AddNewHomemaking.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/AddNewHomemaking.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/fuwugongyingshang/AddSuplierTest.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/fuwugongyingshang/AddSuplierTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/mendianguanli/AddShopTest.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/mendianguanli/AddShopTest.java" />
     </list>
     <ignored path="WebUI-Test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +34,9 @@
       <file leaf-file-name="AddSupplierPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/AddSupplierPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="32" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="644">
+              <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,8 +44,18 @@
       <file leaf-file-name="AddSuplierTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/fuwugongyingshang/AddSuplierTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="138" column="38" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="38" />
+            <state relative-caret-position="322">
+              <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xiugaiPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/xiugaiPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="29" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -50,18 +64,28 @@
       <file leaf-file-name="NoMethodOpenBrowser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/NoMethodOpenBrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
+            <state relative-caret-position="1265">
               <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testNG.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testNG.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="536">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddShopTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/mendianguanli/AddShopTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -70,62 +94,20 @@
       <file leaf-file-name="AddNewHomeMaking_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="104" column="53" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
+            <state relative-caret-position="529">
+              <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MakeOrder_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="98" column="34" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddNewAunt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/AddNewAunt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="109" column="36" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddAuntTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddAuntTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wait.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/util/Wait.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1058">
-              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+            <state relative-caret-position="414">
+              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,7 +142,6 @@
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/LookAllOrderPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/util/PageTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/AddNewHomemaking.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/mendianduanli/AddShopPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/mendianduanli/LookAllShopPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/lookAllOrder/ZhidingayiTest.java" />
@@ -179,18 +160,19 @@
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/NoMethodOpenBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/listenner/DotTestListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/AddSupplierPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/util/GetDB.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/mendianguanli/AddShopTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/xiugaiPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/fuwugongyingshang/AddSuplierTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/util/getDate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/HomeLinkTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/AddNewAunt.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/AddNewHomemaking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/xiugaiPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/AddSupplierPage.java" />
         <option value="$PROJECT_DIR$/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/mendianguanli/AddShopTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/fuwugongyingshang/AddSuplierTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java" />
       </list>
     </option>
   </component>
@@ -237,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,6 +261,126 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cases_ejj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebUI-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebUI-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cases_ejj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mendianguanli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebUI-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebUI-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cases_ejj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jiazhenggongshi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebUI-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebUI-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cases_ejj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuwugongyingshang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebUI-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebUI-Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cases_ejj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ayiguanli" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -647,7 +750,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
@@ -1263,32 +1365,12 @@
       <workItem from="1464574673954" duration="4590000" />
       <workItem from="1464661356171" duration="4963000" />
       <workItem from="1464747646769" duration="9272000" />
-      <workItem from="1464834607984" duration="14405000" />
+      <workItem from="1464834607984" duration="15003000" />
+      <workItem from="1464920619210" duration="10830000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.02 at 17h 26m 24s.xml">
-      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.02 at 17h 48m 44s.xml">
-      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.02 at 17h 50m 13s.xml">
-      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.02 at 17h 51m 58s.xml">
-      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.02 at 17h 53m 59s.xml">
-      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.02 at 18h 07m 32s.xml">
-      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.02 at 18h 08m 39s.xml">
-      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.02 at 18h 11m 06s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
@@ -1298,13 +1380,34 @@
     <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.02 at 18h 15m 22s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.03 at 10h 42m 04s.xml">
+      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.03 at 10h 45m 14s.xml">
+      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.03 at 10h 49m 33s.xml">
+      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.03 at 12h 22m 51s.xml">
+      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.03 at 13h 43m 50s.xml">
+      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.03 at 13h 44m 47s.xml">
+      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.03 at 13h 49m 31s.xml">
+      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246370000" />
+    <option name="totallyTimeSpent" value="257798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1314,8 +1417,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5021322" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29597703" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25095785" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29597703" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24808429" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19349681" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -1490,13 +1593,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.5/testng-6.8.5-sources.jar!/org/testng/internal/Invoker.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.5/testng-6.8.5-sources.jar!/org/testng/internal/TestMethodWorker.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.5/testng-6.8.5-sources.jar!/org/testng/TestRunner.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/AddNewHomemaking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/listenner/DotTestListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -1533,13 +1629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/mendianguanli/AddShopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderSuccessPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1554,24 +1643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-345">
           <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/xiugaiPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/jiazhengxinxiPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1590,23 +1661,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/AddSupplierPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1058">
           <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1614,22 +1673,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/NoMethodOpenBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="1265">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="104" column="53" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1638,29 +1688,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
           <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/util/Wait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1633">
+          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/fuwugongyingshang/AddSuplierTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/jiazhengxinxiPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="138" column="38" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="38" />
+        <state relative-caret-position="207">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/jiazhenggongshiguanli/AddNewHomemaking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
+        <state relative-caret-position="1840">
           <caret line="98" column="34" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/xiugaiPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/fuwugongyingshang/AddSupplierPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/AddNewAunt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="989">
           <caret line="109" column="36" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1668,27 +1749,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/util/Wait.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        <state relative-caret-position="529">
+          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="536">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/mendianguanli/AddShopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/fuwugongyingshang/AddSuplierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

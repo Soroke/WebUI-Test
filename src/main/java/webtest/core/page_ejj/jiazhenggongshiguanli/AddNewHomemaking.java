@@ -5,11 +5,19 @@ import org.openqa.selenium.support.FindBy;
 
 import webtest.core.Page;
 
+import java.util.List;
+
 public class AddNewHomemaking extends Page{
 
     //页面标题
     @FindBy(xpath = "/html/body/div[2]/aside[2]/section[1]/h1")
     public WebElement pageText;
+
+    /**
+     * body
+     */
+    @FindBy(xpath = "/html/body")
+    public WebElement body;
 
     /**
      * 家政公司基础信息
@@ -74,4 +82,10 @@ public class AddNewHomemaking extends Page{
      */
     @FindBy(xpath = "//*[@id=\"w0\"]/div/div[5]/div/div/button")
     public WebElement chaungjianButton;
+
+    /**
+     * 创建成功家政信息信息
+     */
+    @FindBy(xpath = "//div[@class='kv-attribute']")
+    public List<WebElement> managers;
 }

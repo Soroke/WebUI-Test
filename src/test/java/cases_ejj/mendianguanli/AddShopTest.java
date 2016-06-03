@@ -85,6 +85,7 @@ public class AddShopTest extends WebTest {
          */
         asp.kaihuhang.click();
         w.waitElementAttribute(10,asp.kaihuhang,"aria-expanded","true");
+        w.reFresh(10,selectElement(asp.AllLi,bankName));
         asp.reLoad();
         this.selectElement(asp.AllLi,bankName).click();
 

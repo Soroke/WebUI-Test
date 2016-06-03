@@ -79,10 +79,12 @@ public class AddSuplierTest extends NoMethodOpenBrowser {
         w.waitElementAttribute(10,asp.sheng,"aria-expanded","true");
         asp.reLoad();
         this.selectElement(asp.AllLi,"北京").click();
+        w.time(1);
         asp.shi.click();
         w.waitElementAttribute(10,asp.shi,"aria-expanded","true");
         asp.reLoad();
         this.selectElement(asp.AllLi,"北京市").click();
+        w.time(1);
         asp.xian.click();
         w.waitElementAttribute(10,asp.xian,"aria-expanded","true");
         asp.reLoad();

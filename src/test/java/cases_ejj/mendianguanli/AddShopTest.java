@@ -66,6 +66,7 @@ public class AddShopTest extends WebTest {
          * 然后重新加载页面的所有元素
          * 选择家政公司并做点击
          */
+        w.time(1);
         asp.guishujiazheng.click();
         w.waitElementAttribute(10,asp.guishujiazheng,"aria-expanded","true");
         asp.reLoad();

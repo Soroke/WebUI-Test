@@ -96,7 +96,7 @@ public class AddNewHomeMaking_Test extends WebTest {
         anhm.yingyefanwei.sendKeys("家庭保洁、新居开荒");
         //点击创建按钮
         anhm.chaungjianButton.click();
-
+        w.time(1);
         w.waitElementAttribute(10,anhm.body,"class","skin-blue fixed  pace-done");
         anhm.reLoad();
         w.reFresh(10,this.selectElement(anhm.managers,JZMZ));

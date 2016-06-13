@@ -110,8 +110,8 @@ public class MakeOrder_Test extends WebTest {
         Assert.assertEquals(co.fuwushijianduan.isSelected(),true);
         Reporter.log("选择服务时间段测试通过");
         /**
-         * 选择支付方式
-         */
+         * 选择支付方式 因现金支付取消所以不需要选择
+
         if(fukuanfangshi.equals("现金支付")) {
             co.xianjinzhifu.click();
             Assert.assertEquals(co.xianjinzhifu.isSelected(),true);
@@ -120,7 +120,7 @@ public class MakeOrder_Test extends WebTest {
             co.yuezhifu.click();
             Assert.assertEquals(co.yuezhifu.isSelected(),true);
             Reporter.log("选择余额支付测试通过");
-        }
+        }*/
         /**
          * 选择是否系统指派
          */

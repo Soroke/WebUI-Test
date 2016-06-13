@@ -82,11 +82,13 @@ public class AddSuplierTest extends NoMethodOpenBrowser {
         w.time(1);
         asp.shi.click();
         w.waitElementAttribute(10,asp.shi,"aria-expanded","true");
+        w.time(1);
         asp.reLoad();
         this.selectElement(asp.AllLi,"北京市").click();
         w.time(1);
         asp.xian.click();
         w.waitElementAttribute(10,asp.xian,"aria-expanded","true");
+        w.time(1);
         asp.reLoad();
         this.selectElement(asp.AllLi,"朝阳区").click();
         this.selectElementAttribute(asp.inputs,"placeholder","输入供应商详细地址...").sendKeys("光华路22号光华路SOHO一期二单元719");

@@ -69,6 +69,7 @@ public class AddShopTest extends WebTest {
         w.time(1);
         asp.guishujiazheng.click();
         w.waitElementAttribute(10,asp.guishujiazheng,"aria-expanded","true");
+        w.time(1);
         asp.reLoad();
         this.selectElement(asp.AllLi,jiazhengName).click();
         //System.err.println(jiazhengName);process

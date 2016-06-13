@@ -9,7 +9,7 @@
 	<!-- 测试数据存放地址 -->
 	<parameter name="mysql_url" value="jdbc:mysql://182.92.65.25:3306/testdata?characterEncoding=UTF-8" />
 	<parameter name="mysql_user" value="root" />
-	<parameter name="mysql_pwd" value="GGOSQaF%l73Xf2sc" />
+	<parameter name="mysql_pwd" value="Song129927" />
 	<!-- 测试目标配置 -->
 	<parameter name="index" value="http://loadboss2.1jiajie.com/" />
 	<parameter name="admin_user" value="admin"/>

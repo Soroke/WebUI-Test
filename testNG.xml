@@ -56,6 +56,7 @@
 		</classes>
 	</test>
 
+
 	<test name="新建阿姨测试 -- 浏览器chrome">
 		<parameter name="DriverName" value="chrome"/>
 		<parameter name="ChromeDriverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />

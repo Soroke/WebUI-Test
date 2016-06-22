@@ -9,6 +9,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import webtest.core.page_ejj.ayiguanli.AddNewAunt;
+import webtest.core.page_ejj.ayiguanli.LookAllAunt;
 import webtest.core.util.Wait;
 import webtest.core.util.getDate;
 
@@ -70,6 +71,7 @@ public class AddAuntTest extends NoMethodOpenBrowser {
         w.time(1);
         ana.reLoad();
         this.selectElement(ana.AllLi,"测试门店").click();
+        w.time(1);
         Reporter.log("阿姨基础信息录入成功输入成功");
     }
     /**
@@ -216,5 +218,50 @@ public class AddAuntTest extends NoMethodOpenBrowser {
             e.printStackTrace();
         }
         Reporter.log("阿姨排班表保存成功");
+    }
+
+    @Test(priority = 8)
+    public void ayiguanli() {
+        LookAllAunt lal = new LookAllAunt();
+        this.underElementClick(this.selectElement(lal.links,"查看所有阿姨"));
+        w.waitElementAttribute(10,lal.body,"class","skin-blue fixed  pace-done");
+        lal.search_name.sendKeys(AYXM);
+        lal.search_button.click();
+        w.waitElementAttribute(10,lal.body,"class","skin-blue fixed  pace-done");
+        Assert.assertEquals(this.selectElementAttribute(lal.ayinames,"title","查看").getText(),AYXM);
+        Reporter.log("搜索完成");
+        w.time(1);
+        this.selectElementAttribute(lal.a_button,"title","管理").click();
+        w.waitElementAttribute(10,lal.body,"class","skin-blue fixed  pace-done");
+        lal.reLoad();
+        this.selectElement(lal.lables,"通过").click();
+        lal.button.click();
+        w.waitElementAttribute(10,lal.body,"class","skin-blue fixed  pace-done");
+        w.time(1);
+        lal.reLoad();
+        this.selectElement(lal.lables,"通过").click();
+        lal.button.click();
+        w.waitElementAttribute(10,lal.body,"class","skin-blue fixed  pace-done");
+        w.time(1);
+        lal.reLoad();
+        this.selectElement(lal.lables,"通过").click();
+        lal.button.click();
+        w.waitElementAttribute(10,lal.body,"class","skin-blue fixed  pace-done");
+        w.time(1);
+        lal.reLoad();
+        this.selectElement(lal.lables,"通过").click();
+        lal.button.click();
+        w.waitElementAttribute(10,lal.body,"class","skin-blue fixed  pace-done");
+        w.time(1);
+        lal.reLoad();
+        lal.sue_but.click();
+        w.waitElementAttribute(10,lal.body,"class","skin-blue fixed  pace-done");
+        this.underElementClick(this.selectElement(lal.links,"查看所有阿姨"));
+        w.waitElementAttribute(10,lal.body,"class","skin-blue fixed  pace-done");
+        lal.search_name.sendKeys(AYXM);
+        lal.search_button.click();
+        w.waitElementAttribute(10,lal.body,"class","skin-blue fixed  pace-done");
+        Assert.assertEquals(lal.order_status.getText(),"已上岗");
+        Reporter.log("阿姨上岗管理完成");
     }
 }

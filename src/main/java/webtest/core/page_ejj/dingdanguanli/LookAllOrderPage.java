@@ -49,7 +49,7 @@ public class LookAllOrderPage extends Page {
     /**
      * 第一个订单的订单编号部分
      */
-    @FindBy(xpath = "//*[@id=\"w1\"]/div[1]/div/table/tbody/tr[1]/th")
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[1]/th")
     private WebElement case1;
     String s1[] = this.case1.getText().split("        ");
     String orderCode[] = s1[0].split("：");
@@ -58,7 +58,7 @@ public class LookAllOrderPage extends Page {
     /**
      * 第一个订单的订单金额
      */
-    @FindBy(xpath = "//*[@id=\"w1\"]/div[1]/div/table/tbody/tr[2]/td[2]")
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[2]")
     public WebElement case2;
     String all[] = case2.getText().split("\\n");
     String money[] = all[3].split("：");
@@ -68,7 +68,7 @@ public class LookAllOrderPage extends Page {
     /**
      * 接单阿姨姓名
      */
-    @FindBy(xpath = "//*[@id=\"w1\"]/div[1]/div/table/tbody/tr[2]/td[3]/span[1]")
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[3]/span[1]")
     public WebElement ayiName;
 
     /**
@@ -79,15 +79,15 @@ public class LookAllOrderPage extends Page {
      * assignedAunt:指派阿姨
      * sendMessages:发送短信
      */
-    @FindBy(xpath = "//*[@id=\"w1\"]/div[1]/div/table/tbody/tr[2]/td[5]/p[1]/a")
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[5]/p[1]/a")
     public WebElement lookOrder;
-    @FindBy(xpath = "//*[@id=\"w1\"]/div[1]/div/table/tbody/tr[2]/td[5]/p[2]/a")
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[5]/p[2]/a")
     public WebElement complaint;
-    @FindBy(xpath = "//*[@id=\"w1\"]/div[1]/div/table/tbody/tr[2]/td[5]/p[3]/a")
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[5]/p[3]/a")
     public WebElement cancelOrder;
-    @FindBy(xpath = "//*[@id=\"w1\"]/div[1]/div/table/tbody/tr[2]/td[5]/p[4]/a")
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[5]/p[4]/a")
     public WebElement assignedAunt;
-    @FindBy(xpath = "//*[@id=\"w1\"]/div[1]/div/table/tbody/tr[2]/td[5]/p[5]/a")
+    @FindBy(xpath = "//*[@id=\"w1\"]/div[2]/div/table/tbody/tr[2]/td[5]/p[5]/a")
     public WebElement sendMessages;
 
     /**

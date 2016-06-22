@@ -9,14 +9,22 @@ import webtest.core.util.getDate;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class test {
 	@Test
 	public  void te() {
-		NumberFormat f=new DecimalFormat("00000");
-		System.out.println(f.format(1));
+
+		List a = new ArrayList();
+		a.add("soroke");
+		a.add("song");
+		a.add("ren");
+		a.add("kun");
+		System.out.println(a.size());
+
+
 	}
 
 	/**

@@ -65,19 +65,12 @@
 		</classes>
 	</test>
 
+
 	<test name="人工下单测试 -- 浏览器chrome">
 		<parameter name="DriverName" value="chrome"/>
 		<parameter name="ChromeDriverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />
 		<classes>
 			<class name="cases_ejj.dingdan.MakeOrder_Test" />
-		</classes>
-	</test>
-
-	<test name="指定阿姨测试 -- 浏览器chrome">
-		<parameter name="DriverName" value="chrome"/>
-		<parameter name="ChromeDriverPath" value="C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe" />
-		<classes>
-			<class name="cases_ejj.dingdan.lookAllOrder.ZhidingayiTest" />
 		</classes>
 	</test>
 

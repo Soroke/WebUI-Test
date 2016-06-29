@@ -4,6 +4,8 @@ import org.openqa.selenium.support.FindBy;
 
 import webtest.core.Page;
 
+import java.util.List;
+
 public class CreateOrderPage extends Page{
     /**
      * pageText :当前页面的标题
@@ -121,12 +123,12 @@ public class CreateOrderPage extends Page{
      * 是否系统指派
      * xitongzhipai_ture:系统指派是
      * xitongzhipai_false：系统指派否
-     */
+
     @FindBy(xpath = "//*[@id='order-order_flag_sys_assign']/label[1]/input")
     public WebElement xitongzhipai_ture;
     @FindBy(xpath = "//*[@id='order-order_flag_sys_assign']/label[2]/input")
     public WebElement xitongzhipai_false;
-
+     */
     /**
      * 创建待指派订单
      */
@@ -141,5 +143,8 @@ public class CreateOrderPage extends Page{
     @FindBy(id="order-order_cs_memo")
     private WebElement kfbz;
 
+
+    @FindBy(xpath = "//input[@type='radio']")
+    public List<WebElement> inputs;
 
 }

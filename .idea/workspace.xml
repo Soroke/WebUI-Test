@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="253207ed-144c-4718-bb5e-d755dae47d0d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/LookAllAunt.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/LookAllAunt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/LookAllOrderPage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/LookAllOrderPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderPage.java" afterPath="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases/test.java" afterPath="$PROJECT_DIR$/src/test/java/cases/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java" afterPath="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testNG.xml" afterPath="$PROJECT_DIR$/testNG.xml" />
     </list>
     <ignored path="WebUI-Test.iws" />
@@ -33,28 +32,8 @@
       <file leaf-file-name="testNG.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZhidingayiTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/lookAllOrder/ZhidingayiTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="172" column="37" selection-start-line="172" selection-start-column="37" selection-end-line="172" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LookAllOrderPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/LookAllOrderPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
-              <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+            <state relative-caret-position="506">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,19 +42,23 @@
       <file leaf-file-name="LookAllAunt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/LookAllAunt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
+            <state relative-caret-position="506">
               <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddAuntTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddAuntTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="265" column="5" selection-start-line="265" selection-start-column="5" selection-end-line="265" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="5704">
+              <caret line="259" column="81" selection-start-line="259" selection-start-column="81" selection-end-line="259" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,9 +66,13 @@
       <file leaf-file-name="HomeLinkTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/HomeLinkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="759">
               <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1149#1150#0" expanded="false" />
+                <element signature="e#1191#1192#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,31 +82,33 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="115" column="58" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeOrder_Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3772">
-              <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#989#990#0" expanded="false" />
-                <element signature="e#1031#1032#0" expanded="false" />
+                <element signature="e#450#451#0" expanded="false" />
+                <element signature="e#501#502#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakeOrder_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cases/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,11 +116,9 @@
       <file leaf-file-name="CreateOrderPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2599">
-              <caret line="116" column="69" selection-start-line="116" selection-start-column="69" selection-end-line="116" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="2524">
+              <caret line="147" column="35" selection-start-line="147" selection-start-column="35" selection-end-line="147" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/CancelOrderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/RengongpaidanPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderPage.java" />
         <option value="D:/Program Files/Java/jdk1.7.0_79/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/lookAllOrder/CancelOrderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/LoginPage.java" />
@@ -189,14 +175,15 @@
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/jiazhenggongshi/AddNewHomeMaking_Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/fuwugongyingshang/AddSuplierTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/mendianguanli/AddShopTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cases/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/LookAllAunt.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/LookAllOrderPage.java" />
-        <option value="$PROJECT_DIR$/testNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cases/test.java" />
+        <option value="$PROJECT_DIR$/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java" />
       </list>
     </option>
   </component>
@@ -453,9 +440,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1115,44 +1102,47 @@
       <workItem from="1466132136384" duration="476000" />
       <workItem from="1466476127798" duration="1190000" />
       <workItem from="1466486627559" duration="7362000" />
-      <workItem from="1466561967357" duration="13550000" />
+      <workItem from="1466561967357" duration="16148000" />
+      <workItem from="1466648697078" duration="11082000" />
+      <workItem from="1467079533179" duration="3127000" />
+      <workItem from="1467167411115" duration="4180000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.22 at 14h 49m 42s.xml">
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.23 at 14h 51m 26s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.22 at 14h 59m 42s.xml">
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.23 at 14h 52m 51s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.22 at 15h 02m 42s.xml">
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.23 at 14h 57m 05s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.22 at 15h 05m 11s.xml">
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.23 at 14h 59m 54s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.22 at 15h 06m 47s.xml">
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.23 at 15h 02m 27s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.22 at 15h 13m 41s.xml">
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.23 at 15h 04m 48s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.22 at 15h 16m 10s.xml">
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.23 at 15h 07m 09s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.22 at 15h 32m 04s.xml">
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.23 at 15h 08m 09s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.22 at 15h 54m 40s.xml">
+    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.23 at 15h 13m 38s.xml">
       <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Intellij_wospace_WebUI-Test_testNG_xml - 2016.06.22 at 16h 04m 55s.xml">
-      <configuration name="E:/Intellij_wospace/WebUI-Test/testNG.xml" configurationId="TestNG" />
+    <history-entry file="test_te - 2016.06.23 at 15h 00m 52s.xml">
+      <configuration name="test.te" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304128000" />
+    <option name="totallyTimeSpent" value="325115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
@@ -1160,14 +1150,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5021322" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2940613" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23850575" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2729885" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20362474" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -1176,8 +1164,10 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30363986" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2940613" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14463602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30363986" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1202,13 +1192,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.5/testng-6.8.5.jar!/org/testng/SuiteRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1486">
-          <caret line="222" column="0" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.5/testng-6.8.5.jar!/org/testng/TestRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1388,9 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
           <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1399,9 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2093">
           <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1423,47 +1400,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1518">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2599">
-          <caret line="116" column="69" selection-start-line="116" selection-start-column="69" selection-end-line="116" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3772">
-          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#989#990#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/TestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="2162">
           <caret line="115" column="58" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/NoMethodOpenBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2109#2110#0" expanded="false" />
+            <element signature="e#2142#2143#0" expanded="false" />
+            <element signature="e#3259#3260#0" expanded="false" />
+            <element signature="e#3315#3316#0" expanded="false" />
+            <element signature="e#3838#3849#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1471,31 +1422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="69" column="35" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/HomeLinkTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cases/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/LookAllAunt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1509,33 +1435,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/lookAllOrder/ZhidingayiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="3703">
           <caret line="172" column="37" selection-start-line="172" selection-start-column="37" selection-end-line="172" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/LookAllOrderPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
+        <state relative-caret-position="2001">
           <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testNG.xml">
+    <entry file="jar://D:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="236">
+          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/ayiguanli/LookAllAunt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/ayiguanli/AddAuntTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="265" column="5" selection-start-line="265" selection-start-column="5" selection-end-line="265" selection-end-column="5" />
+        <state relative-caret-position="5704">
+          <caret line="259" column="81" selection-start-line="259" selection-start-column="81" selection-end-line="259" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/HomeLinkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1149#1150#0" expanded="false" />
+            <element signature="e#1191#1192#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/NoMethodOpenBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#501#502#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/webtest/core/page_ejj/dingdanguanli/CreateOrderPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2524">
+          <caret line="147" column="35" selection-start-line="147" selection-start-column="35" selection-end-line="147" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cases_ejj/dingdan/MakeOrder_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

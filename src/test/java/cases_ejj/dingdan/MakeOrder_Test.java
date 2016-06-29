@@ -1,10 +1,12 @@
 package cases_ejj.dingdan;
 
+import cases.test;
 import cases_ejj.HomeLinkTest;
 import cases_ejj.LoginTest;
 import cases_ejj.WebTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -17,6 +19,9 @@ import webtest.core.page_ejj.dingdanguanli.CreateOrderPage;
 import webtest.core.page_ejj.dingdanguanli.CreateOrderSuccessPage;
 import webtest.core.util.Wait;
 import webtest.core.util.getDate;
+
+import java.util.List;
+import java.util.Random;
 
 
 /**
@@ -107,6 +112,22 @@ public class MakeOrder_Test extends WebTest {
         w.reFresh(10,co.fuwushijianduan);
         co.fuwushijianduan.click();
         if(co.fuwushijianduan.isSelected() == false) co.fuwushijianduan.click();
+/*
+//testst
+        co.reLoad();
+        test t = new test();
+        List<WebElement> ttt = t.se(co.inputs);
+        System.out.println("集合数量：" + ttt.size());
+        Random r = new Random();
+
+        for(int i=0;i<ttt.size();i++) {
+            //int n2 = r.nextInt(11);
+            System.out.println("第"+i+"个输出：" +ttt.get(i));
+            //ttt.get(n2).click();
+        }
+
+        */
+
         Assert.assertEquals(co.fuwushijianduan.isSelected(),true);
         Reporter.log("选择服务时间段测试通过");
         /**
@@ -122,8 +143,8 @@ public class MakeOrder_Test extends WebTest {
             Reporter.log("选择余额支付测试通过");
         }*/
         /**
-         * 选择是否系统指派
-         */
+         * 选择是否系统指派     因系统指派选项去掉了所以注释代码
+
         if(xitongzhipai.equals("系统指派是")) {
             Assert.assertEquals(co.xitongzhipai_ture.isSelected(),true);
             Reporter.log("选择系统指派是测试通过");
@@ -131,7 +152,7 @@ public class MakeOrder_Test extends WebTest {
             co.xitongzhipai_false.click();
             Assert.assertEquals(co.xitongzhipai_false.isSelected(),true);
             Reporter.log("选择系统指派否测试通过");
-        }
+        }*/
         /**
          * 点击创建待指派订单
          * 然后检查订单是否创建成功

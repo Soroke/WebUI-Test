@@ -1,7 +1,6 @@
 package cases_ejj;
 
-import junit.framework.Assert;
-
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Parameters;

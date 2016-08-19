@@ -3,8 +3,8 @@ package cases_ejj.mendianguanli;
 import cases_ejj.HomeLinkTest;
 import cases_ejj.LoginTest;
 import cases_ejj.WebTest;
-import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -114,6 +114,7 @@ public class AddShopTest extends WebTest {
         lasp.searchShopName.sendKeys(MDMZ);
         this.selectElement(lasp.buttons,"查询").click();
         w.waitElementAttribute(10,lasp.body,"class","skin-blue fixed  pace-done");
+
         Assert.assertEquals(lasp.firstShopName.getText(),MDMZ);
         Assert.assertEquals(lasp.firstShopPhone.getText(),phone);
         Reporter.log("门店添加成功");
